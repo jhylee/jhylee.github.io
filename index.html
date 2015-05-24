@@ -1,6 +1,53 @@
 <!DOCTYPE html>
+
 <html lang="en">
   <head>
+    <!-- Below is for the FORM -->
+
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.18/jquery-ui.min.js"></script>
+<link rel="stylesheet" type="text/css" href="http://ajax.aspnetcdn.com/ajax/jquery.ui/1.8.20/themes/vader/jquery-ui.css">
+<style type="text/css">
+#box_form > *{
+    font-size:12px;
+    margin-bottom:15px;
+}
+#box_form > p > label{
+    display:block;
+    font-size:18px;
+}
+#box_form > p > input, #box_form > p > textarea{
+        width:300px;
+}
+</style>
+<script type='text/javascript'>
+$(document).ready(function() {
+    $('#box_form').dialog({
+        autoOpen: false,
+        height: 375,
+        width: 350,
+        modal: true,
+        buttons: [
+            {
+            text: "Cancel",
+            click: function() {
+                $(this).dialog("close");
+            }},
+        {
+            text: "Submit",
+            click: function() {
+                $('#zFormer').submit();
+            }}
+        ]
+    });
+    $('#clicky').button().click(function(e){
+        $('#box_form').dialog('open');
+    });
+});
+</script>
+
+<!-- Above is for the FORM -->
+
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -18,6 +65,7 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
         <![endif]-->
+
       </head>
       <body id="top">
         <header id="home">
@@ -362,8 +410,8 @@
                       </div>
                       <div class="col-md-4 wp5 delay-05s">
                         <img src="img/team-02.png" alt="Team Member">
-                        <h2>Stoopid McStoopid</h2>
-                        <p>Yadadadadadaddadadadadadadaadaada....
+                        <h2>Placeholder</h2>
+                        <p>placeholder....
 
                           PLACEHOLDER</p>
                         <div class="social">
@@ -381,25 +429,69 @@
             </div>
           </div>
         </section>
+<!--        OLD CODE BELOW 
          <div class="ignite-cta text-center">
           <div class="container">
             <div class="row">
               <div class="col-md-12">
                 <h1><span><FONT COLOR= "FFFFFF"> We want to hear from you :</FONT></span></h1>
-                <a href="https://docs.google.com/forms/d/19k8G1RzPOdd5E-uOe1brqp-YqX5ngRLn5APvtfTpFgk/viewform" class="ignite-btn">Have Feedback?</a>
+                <form id="zFormer" method="POST" action="former.php" name="former">
+<div id="box_form">
+    <p>
+        <label for="z_name">Your Name:</label>
+        <input type="text" value="" name="z_name">
+    </p>
+    <p>
+        <label for="z_requestor">Your Email Address: </label>
+        <input type="text" value="" name="z_requester">
+    </p>
+    <p>
+        <label for="z_subject">Subject: </label>
+        <input type="text" value="" name="z_subject">
+    </p>
+    <p>
+        <label for="z_description">Description: </label>
+        <textarea name="z_description"></textarea>
+    </p>
+</div>
+</form>
+
+                <form action="#">
+              <input type="text" name="" value="" placeholder="" required>
+              <input type="submit" name="" value="Send">
+            </form>
               </div>
             </div>
           </div>
         </div>
+-->
+
         <section class="subscribe text-center">
           <div class="container">
             <h1><i class="fa fa-envelope-o"></i><span>Join Our Mailing List</span></h1>
             <form action="#">
+            <p>
+              <label for="z_name">Your Name:</label>
+            </p>
+            <p>
+              <input type="text" value="Adam Panzer" name="z_name">
+            </p>
+            <p>
+              <input type="text" value="apanzer@zendesk.com" name="z_requester">
+            </p>
+            <p>
+              <input type="text" value="Who needs a subject?" name="z_subject">
+            </p>
+            <p>
               <input type="text" name="" value="" placeholder="" required>
+            </p>
               <input type="submit" name="" value="Send">
             </form>
           </div>
         </section>
+
+
+
         <section class="dark-bg text-center section-padding contact-wrap" id="contact">
           <a href="#top" class="up-btn"><i class="fa fa-chevron-up"></i></a>
           <div class="container">
