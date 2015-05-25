@@ -185,6 +185,9 @@ $(document).ready(function() {
             </div>
           </div>
         </section>
+
+
+        
         <section class="swag text-center">
           <div class="container">
             <div class="row">
@@ -466,24 +469,33 @@ $(document).ready(function() {
         </div>
 -->
 
+<!-- 
+<form action="#" id="form" method="post" name="form">
+<input name="vname" placeholder="Your Name" type="text" value="">
+<input name="vemail" placeholder="Your Email" type="text" value="">
+<input name="sub" placeholder="Subject" type="text" value="">
+<label>Your Suggestion/Feedback</label>
+<textarea name="msg" placeholder="Type your text here..."></textarea>
+<input id="send" name="submit" type="submit" value="Send Feedback">
+-->
+
         <section class="subscribe text-center">
           <div class="container">
-            <h1><i class="fa fa-envelope-o"></i><span>Join Our Mailing List</span></h1>
-            <form action="#">
+            <h1><i class="fa fa-envelope-o"></i><span>Contact Us</span></h1>
+
+            <form action="https://google.ca" id="form" method = "post" name = "form">
             <p>
-              <label for="z_name">Your Name:</label>
+              <input type="text" value="" name="vname" placeholder="Name" required>
             </p>
             <p>
-              <input type="text" value="Adam Panzer" name="z_name">
+              <input type="text" value="" name="vemail" placeholder = "Your E-Mail" required>
+          
+            <p>
+              <input type="text" value="" name="sub" placeholder = "Subject" optional>
+
             </p>
             <p>
-              <input type="text" value="apanzer@zendesk.com" name="z_requester">
-            </p>
-            <p>
-              <input type="text" value="Who needs a subject?" name="z_subject">
-            </p>
-            <p>
-              <input type="text" name="" value="" placeholder="" required>
+              <input type="text" name="z_comment" value="" placeholder="Comment" required>
             </p>
               <input type="submit" name="" value="Send">
             </form>
@@ -541,7 +553,7 @@ $(document).ready(function() {
                 </ul>
               </div>
               <div class="col-md-6 credit">
-                <p>Base Theme by Codrops. Developed By <a href="https://ca.linkedin.com/in/jhylee">Joseph Lee</a></p>
+                <p>Developed By <a href="https://ca.linkedin.com/in/jhylee">Joseph Lee</a></p>
               </div>
             </div>
           </div>
