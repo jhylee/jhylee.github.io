@@ -229,9 +229,9 @@ AWESOME BUTTON
 
 
 a.button {
-  display: block;
+  display: inline-block;
   position: relative;
-  float: left;
+  float: center;
   width: 255px;
   padding: 0;
   margin: 10px 20px 10px 0;
@@ -241,7 +241,8 @@ a.button {
   color: #FFF;
   border-radius: 5px;
   transition: all 0.4s ;
-    
+    position:relative;
+    top: 50%;
     
     
 }
