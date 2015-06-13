@@ -324,7 +324,14 @@ Subscribe
 .subscribe input[type=submit] { background: #5DC8CD; border: solid 1px rgba(42, 157, 229, 1); padding: 20px; color: #fff; text-transform: uppercase; letter-spacing: 1px; transition: all 0.5s ease; -moz-transition: all 0.5s ease; -webkit-transition: all 0.5s ease; -o-transition: all 0.5s ease; }
 .subscribe input[type=submit]:hover { background: #5DC8CD; opacity: 0.5; border: solid 1px rgba(42, 157, 229, 1); color: #fff; }
 /* ==========================================================================
-CTA
+PROFESSIONAL RESOURCE DATABASE
+========================================================================== */
+.database { background: url('../img/sauder.jpg') no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; background-attachment: fixed; padding: 50px 0; }
+.database h1 { color: #fff; font-size: 40px; text-transform: uppercase; letter-spacing: 5px; }
+.database h1 span { display: block; font-size: 25px; margin-top: 20px; }
+
+/* ==========================================================================
+PROFESSIONAL RESOURCE DATABASE BUTTON
 ========================================================================== */
 .ignite-cta { background-color: #242830; padding: 70px 0; }
 .ignite-btn { display: inline-block; padding: 25px 40px; color: #fff; border: solid 1px #fff; text-transform: uppercase; font-weight: bold; letter-spacing: 1px; }
