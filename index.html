@@ -1,5 +1,10 @@
-<!DOCTYPE html>
+<?php
+if($_POST["message"]) {
+    mail("jhy@outlook.com", "Form to email message", $_POST["message"], "From: an@email.address");
+}
+?>
 
+<!DOCTYPE html>
 
 <html lang="en">
   <head>
@@ -410,11 +415,12 @@
           </div>
         </section>
 
+
         <section class="subscribe text-center">
           <div class="container">
             <h1><i class="fa fa-envelope-o"></i><span>Contact Us</span></h1>
 
-            <form action="https://google.ca" id="form" method = "post" name = "form">
+            <form action="contact.php" id="form" method = "post" name = "form">
             <p>
               <input type="text" value="" name="vname" placeholder="Name" required>
             </p>
