@@ -2,8 +2,8 @@
 @media screen and (max-width:320px) {
 }
 /* 480px (WVGA - Low End Windows Phone) */
-@media screen and (max-width:480px) {
-	.wrapper { background: #f3f5f8; height: 640px; }
+@media screen and (max-width:640px) {
+	.wrapper { background: #f3f5f8; height: 960px; }
 	.iphone { display: none; }
 	.fluid-white { display: none; }
 	.wp2, .wp4, .wp5, .light-box { margin-bottom: 30px; }
