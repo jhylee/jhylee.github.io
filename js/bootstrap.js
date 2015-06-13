@@ -55,6 +55,16 @@ if (typeof jQuery === 'undefined') { throw new Error('Bootstrap\'s JavaScript re
 
 }(jQuery);
 
+$('[data-js="btn"]').hover(function(){
+  $(this).toggleClass('active');
+  if ($(this).hasClass('active')) {
+    $('body').addClass('blur');
+  } else {
+    $('body').removeClass('blur');
+  }
+});
+
+
 /* ========================================================================
  * Bootstrap: alert.js v3.1.1
  * http://getbootstrap.com/javascript/#alerts
