@@ -249,8 +249,8 @@ ul.legals li:last-child::after { content: ""; }
 PORTFOLIO HEADER
 ========================================================================== */
 .swag2 { background: url('../img/irving.jpg') no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; background-attachment: fixed; padding: 120px 0; }
-.swag2 h1 { color: #fff; font-size: 60px; text-transform: uppercase; letter-spacing: 5px; }
-.swag2 h1 span { display: block; font-size: 30px; margin-top: 20px; }
+.swag2 h1 { color: #fff; font-size: 40px; text-transform: uppercase; letter-spacing: 5px; }
+.swag2 h1 span { display: block; font-size: 10px; margin-top: 20px; }
 
 .fa-angle-down {
     font-size: 75px;
