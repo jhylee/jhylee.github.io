@@ -249,12 +249,53 @@ ul.legals li:last-child::after { content: ""; }
 PORTFOLIO HEADER
 ========================================================================== */
 .swag2 { background: url('../img/irving.jpg') no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; background-attachment: fixed; padding: 120px 0; }
-.swag2 h1 { color: #fff; font-size: 40px; text-transform: uppercase; letter-spacing: 5px; }
+.swag2 h1 { color: #fff; font-size: 60px; text-transform: uppercase; letter-spacing: 5px; }
 .swag2 h1 span { display: block; font-size: 30px; margin-top: 20px; }
 
-.fa-angle-double-down {
+.fa-angle-down {
     font-size: 75px;
 }
+
+/* ==========================================================================
+PORTFOLIO SKILLS
+========================================================================== */
+.features-wrapper, .team-wrapper { margin: 50px 0 0; }
+.icon { height: 180px; width: 175px; line-height: 175px; max-width: 100%; background: #c3bcbc; border-radius: 25%; -o-border-radius: 25%; -moz-border-radius: 25%; -webkit-border-radius: 25%; display: block; color: #fff; font-size: 55px; text-align: center; vertical-align: middle; position: relative; margin: 0 auto 50px; }
+
+/* ==========================================================================
+PORTFOLIO SLIDES
+========================================================================== */
+.effects { padding-left: 15px;}
+.effects .img { position: relative; margin-bottom: 10px; position: relative; z-index: 1; overflow: hidden; }
+
+.overlay { display: block; position: absolute; z-index: 20;}
+a.close-overlay { display: block; position: absolute; top: 0; right: 0; z-index: 100; width: 45px; height: 45px; font-size: 20px; font-weight: 700; color: #a1a9b0; line-height: 45px; text-align: center; background-color: #a1a9b0; cursor: pointer; }
+
+
+.overlay-effect .img i { font-size: 30px; }
+.overlay-effect .overlay { bottom: 0; left: 0; right: 0; width: 100%; height: 100%; opacity: 0; }
+.overlay-effect .overlay a.expand { left: 0; right: 0; bottom: 47%; margin: 0 auto -30px auto; }
+.overlay-effect .img.hover .overlay { height: 100%; opacity: 1; }
+.img img { width: -webkit-calc(100% + 40px) !important; width: calc(100% + 40px) !important; -webkit-transition: opacity 0.35s, -webkit-transform 0.35s; transition: opacity 0.35s, transform 0.35s; -moz-transition: opacity 0.35s, -moz-transform 0.35s; -o-transition: opacity 0.35s, -o-transform 0.35s; -webkit-transform: translate3d(-40px, 0, 0); transform: translate3d(-40px, 0, 0); -ms-transform: translate3d(-40px, 0, 0); }
+.img:hover img { -webkit-transform: translate3d(0, 0, 0); transform: translate3d(0, 0, 0); -ms-transform: translate3d(-40px, 0, 0); }
+.designs { position: absolute; left: 0; right: 0; margin-left: auto; margin-right: auto; top: 0px; }
+
+/* ==========================================================================
+RESUME HEADER
+========================================================================== */
+.swag3 { background: url('../img/sauder.jpg') no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; background-attachment: fixed; padding: 120px 0; }
+.swag3 h1 { color: #fff; font-size: 60px; text-transform: uppercase; letter-spacing: 5px; font-weight: bold;}
+.swag3 h1 span { display: block; font-size: 30px; margin-top: 20px; }
+
+.fa-angle-up {
+    font-size: 75px;
+}
+
+/* ==========================================================================
+RESUME TYPES
+========================================================================== */
+.features-wrapper, .team-wrapper { margin: 50px 0 0; }
+.icon { height: 180px; width: 175px; line-height: 175px; max-width: 100%; background: #353535; border-radius: 25%; -o-border-radius: 25%; -moz-border-radius: 25%; -webkit-border-radius: 25%; display: block; color: #fff; font-size: 55px; text-align: center; vertical-align: middle; position: relative; margin: 0 auto 50px; }
 
 
 /* ==========================================================================

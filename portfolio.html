@@ -30,30 +30,28 @@ if($_POST["message"]) {
         <?php include_once("analyticstracking.php") ?>
         <header>
           
-<nav class="navbar navbar-default navbar-static-top" role="navigation">
-      <div class="navigation">
-        <div class="container">         
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse.collapse">
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-            <div class="navbar-brand">
-              <a href="index.html"><h1>joseph(<span>lee</span>);</h1></a>
-
-            </div>
-          </div>
+<nav class="navbar navbar-default navbar-static-top" role="navigation" id = "navigation">
+            <div class="navigation">
+              <div class="container">
+                <div class="navbar-header">
+                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse.collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    </button>
+                    <div class="navbar-brand">
+                      <a href="index.html"><h1>joseph(<span>lee</span>);</h1></a>
+                    </div>
+                  </div>
           
           <div class="navbar-collapse collapse">              
             <div class="menu">
               <ul class="nav nav-tabs" role="tablist">
                 <li role="presentation"><a href="index.html" >Home</a></li>
-                <li role="presentation"><a href="portfolio.html">Portfolio</a></li>
-                <li role="presentation"><a href="project.html">Project</a></li>
-                <li role="presentation"><a href="img/JosephLeeResume2015.pdf">Resume</a></li>
-                <li role="presentation"><a href="https://ca.linkedin.com/in/jhylee">Linkedin</a></li>          
+                <li role="presentation"><a href="portfolio.html">Portfolio</a></li>               
+                <li role="presentation"><a href="resume.html">Resume</a></li>
+                <li role="presentation"><a href="https://ca.linkedin.com/in/jhylee">Linkedin</a></li>
+
               </ul>
             </div>
           </div>            
@@ -61,35 +59,97 @@ if($_POST["message"]) {
       </div>  
     </nav>
 
-        <section class="swag2 text-center">
+        <section class="swag2 text-center" id = "header">
           <div class="container">
             <div class="row">
               <div class="col-md-8 col-md-offset-2">
                 <div class="col-md-8 col-md-offset-2 text-center inner">
-                  <h1 class="animated fadeInDown"><b><FONT COLOR="FFFFFF">MY </b><b><FONT COLOR = "ea1616">PROFESSIONAL</b></FONT><br><b>PORTFOLIO</b></h1>
-                  
-
+                  <h1 class="animated fadeInDown"><b><FONT COLOR="FFFFFF">MY </b><b><FONT COLOR = "ea1616">PORTFOLIO</b></FONT><br><b>& PROJECTS <a href = "#features"><FONT COLOR = "FFFFFF"><i class = "fa fa-mortar-board"></FONT></i></a></b></h1>
                 </div>
               </div>
             </div>
           </div>
         </section>
 
-        <section class="intro text-center section-padding" id="intro">
+        <section class="features text-center section-padding" id="features">
           <div class="container">
             <div class="row">
-              <div class="col-md-8 col-md-offset-2 wp1">
-                <h1 class="arrow">Hi There. You can call me Joe.</h1>
-                <p>I'm a third year student at UBC's Sauder School of Business, currently pursuing a combined major in business and computer science. I'm an avid technology evanglist and hopeful entrepreneur, looking to launch a future career in the the high-impact technology industry. Currently, I'm on an eight month co-op term in Calgary, Alberta, where I am working as an IT Business Analyst for the Upstream Production Delivery Vertical at Royal Dutch Shell.
-                <br> <br>
-                Aside from technology and work, you can find me either coding, drinking beer, or playing/watching hockey or football. Unfortunately, I'm a long suffering fan of the Ottawa Senators, Vancouver Canucks, and the Arizona Cardinals.</p>
+              <div class="col-md-12">
+                <h1 class="arrow">My Experiences & Skillsets</h1>
+                <div class="features-wrapper">
+                  <div class="col-md-4 wp2">
+                    <div class="icon">
+                      
+                      <i class="fa fa-comments-o"></i>
+                      
+                    </div>
+                    <h2>Extensive Team Experience</h2>
+                    <p>Extensive experience in global and cross-functional team settings</p>
+                  </div>
+                  <div class="col-md-4 wp2 delay-05s">
+                    <div class="icon">
+                      <i class="fa fa-code"></i>
+                    </div>
+                    <h2>Programming Experience</h2>
+                    <p>Extensive work and project experience in Java, C++, HTML, CSS, js programming experience</p>
+                  </div>
+                  <div class="col-md-4 wp2 delay-1s">
+                    <div class="icon">
+                      <i class="fa fa-briefcase"></i>
+                    </div>
+                    <h2>Business Experience</h2>
+                    <p></p>
+                  </div>
+                  <div class="clearfix"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="portfolio text-center section-padding" id="portfolio">
+          <div class="container">
+            <div class="row">
+               <h1 class="arrow">My Portfolio</h1>
+
+                    <div class="col-md-4 wp4">
+                      <div class="overlay-effect effects clearfix">
+                        <div class="img">
+                          <a href = "https://drive.google.com/folderview?id=0B9BpjX5Hyh19bENGbmcwNVllRjQ&usp=sharing&tid=0B9BpjX5Hyh19OFZFUWFmZHlpbDg" ><img src="img/pointstreak.jpg"></a>
+                        </div>
+                      </div>
+                      <h2>Marketing - Content Generation</h2>
+                      <p>Effectively managed a digital marketing project: created 8 product ads/infographics, one of which produced a 192% increase in engagement on social media</p>
+                    </div>
+                    <div class="col-md-4 wp4 delay-05s">
+                      <div class="overlay-effect effects clearfix">
+                        <div class="img">
+                          <a href = "http://saudercoop.com" ><img src="img/cosas.jpg"></a>        
+                        </div>
+                      </div>
+                      <h2>Software Engineering & Web Development</h2>
+                      <p>Developed the website you're looking at right now. Also developed the website for the Co-op Student Association of Sauder, a student organization in UBC Vancouver</p>
+                    </div>
+                    <div class="col-md-4 wp4 delay-1s">
+                      <div class="overlay-effect effects clearfix">
+                        <div class="img">
+                          <a href = "resume.html" ><img src="img/resume.jpg"></a>  
+                         
+                        </div>
+                      </div>
+                      <h2>Cross-Functional Work Experiences</h2>
+                      <p>Extensive internship/co-op experience in IT Business Analysis, Project Management, Business Development and Marketing roles in industry-leading companies
+                      </p>
+                    </div>
+                  
+                </ul>
               </div>
             </div>
           </div>
         </section>
 
         <section class="dark-bg text-center section-padding contact-wrap" id="contact">
-          <a href="#hero" class="up-arrow-btn"><i class="fa fa-angle-double-up"></i></a>
+          <a href="#navigation" class="up-arrow-btn"><i class="fa fa-angle-up"></i></a>
           <div class="container">
             <div class="row">
               <div class="col-md-12">
@@ -113,7 +173,7 @@ if($_POST["message"]) {
                 <div class="light-box box-hover">
 
                   <h2><i class="fa fa-envelope-o"></i><span><FONT COLOR = "353535">Email</FONT></span></h2>
-                  <p>jhylee[at]outlook.com</a></p>
+                  <p>joseph@jhylee.com</a></p>
 
                 </div>
 
@@ -127,17 +187,15 @@ if($_POST["message"]) {
             <div class="row">
               <div class="col-md-6">
                 <ul class="legals">
-                  <!--
-                  <p> &raquo; <FONT SIZE = 2>Photos & Website Developed By <a href = "https://ca.linkedin.com/in/jhylee"><b>Joseph Lee</b> </a></FONT></p>
-                --> 
+                  
+                  <p> &raquo; Null Studios | All Rights Reserved ©</b> </a></FONT></p>
+                
                 </ul>
               </div>
               <div class="col-md-6 credit">
-                <!--
-                <a href = "http://www.cus.ca"><img src="img/cus.png"></a>      
-                <a href = "http://www.sauder.ubc.ca"><img src="img/sauder.png" Hspace = "20"></a>
-                <a href = "http://www.ubc.ca"><img src="img/ubc.png"></a>
-              -->
+                
+                <p> &raquo; Website Designed & Developed by <a href = "https://ca.linkedin.com/in/jhylee"><b>Joseph Lee</b></a></p>
+              
               </div>
             </div>
           </div>

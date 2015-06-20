@@ -29,30 +29,26 @@ if($_POST["message"]) {
       <body>
         <?php include_once("analyticstracking.php") ?>
         <header>
-          
-<nav class="navbar navbar-default navbar-static-top" role="navigation">
-      <div class="navigation">
-        <div class="container">         
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse.collapse">
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-            <div class="navbar-brand">
-              <a href="index.html"><h1>joseph(<span>lee</span>);</h1></a>
-
-            </div>
-          </div>
+          <nav class="navbar navbar-default navbar-static-top" role="navigation" id = "navigation">
+            <div class="navigation">
+              <div class="container">
+                <div class="navbar-header">
+                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse.collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                  </button>
+                    <div class="navbar-brand">
+                      <a href="index.html"><h1>joseph(<span>lee</span>);</h1></a>
+                    </div>
+                  </div>
           
           <div class="navbar-collapse collapse">              
             <div class="menu">
               <ul class="nav nav-tabs" role="tablist">
                 <li role="presentation"><a href="index.html" >Home</a></li>
-                <li role="presentation"><a href="portfolio.html">Portfolio</a></li>
-                <li role="presentation"><a href="project.html">Project</a></li>
-                <li role="presentation"><a href="img/JosephLeeResume2015.pdf">Resume</a></li>
+                <li role="presentation"><a href="portfolio.html">Portfolio</a></li>               
+                <li role="presentation"><a href="resume.html">Resume</a></li>
                 <li role="presentation"><a href="https://ca.linkedin.com/in/jhylee">Linkedin</a></li>        
               </ul>
             </div>
@@ -66,11 +62,11 @@ if($_POST["message"]) {
                 <div class="col-md-8 col-md-offset-2 text-center inner">
                   <h1 class="animated fadeInDown"><FONT COLOR="FFFFFF">HELLO, MY NAME <BR>IS <b><FONT COLOR = "ea1616">JOSEPH LEE</b></FONT></h1>
                   <p class="animated fadeInUp delay-05s"><FONT COLOR="FFFFFF">Business Minded Computer Scientist </FONT></p>
-                  <p class="animated fadeInUp delay-1s"><FONT COLOR="FFFFFF">Currently studying Business & Computer Science at <b>UBC Vancouver</b></FONT></p>
+                  <p class="animated fadeInUp delay-1s"><FONT COLOR="FFFFFF">Commerce & Computer Science Major at <b>UBC Vancouver</b></FONT></p>
                 </div>
                 <div class="row">
                   <div class="col-md-6 col-md-offset-3 text-center">
-                    <a href="#intro" class="down-arrow-btn"><i class="fa fa-angle-double-down"></i></a>
+                    <a href="#intro" class="down-arrow-btn"><i class="fa fa-angle-down"></i></a>
                     </div>
                   </div>
               </div>
@@ -102,57 +98,8 @@ if($_POST["message"]) {
           </div>
         </section>
 
-
-
-
-
-<!--
-         <section class="subscribe text-center">
-          <div class="container">
-            <h1><i class="fa fa-envelope-o"></i><span>Contact Us</span></h1>
-
-            <form name="contactform" method="post" action="send_form_email.php"><table width="450px">
-              <tr>
-                <td valign="top">
-                  <label for="first_name">First Name *</label>
-                </td>
-                <td valign="top">
-                  <input  type="text" name="first_name" maxlength="50" size="30">
-                </td>
-              </tr>
-              <tr>
-                <td valign="top">
-                  <label for="email">Email Address *</label>
-                </td>
-                <td valign="top">
-                  <input  type="text" name="email" maxlength="80" size="30">
-                </td>
-              </tr>
-              <tr>
-                <tr>
-                  <td valign="top">
-                    <label for="comments">Comments *</label>
-                  </td>
-                  <td valign="top">
-                    <textarea  name="comments" maxlength="1000" cols="25" rows="6"></textarea>
-                  </td>
-                </tr>
-                <tr>
-                  <td colspan="2" style="text-align:center">
-                    <input type="submit" value="Submit">   <a href="http://www.freecontactform.com/email_form.php">Email Form</a>
-                  </td>
-                </tr>
-              </table>
-            </form>
-          </div>
-        </section>
--->
-
-
-
-
         <section class="dark-bg text-center section-padding contact-wrap" id="contact">
-          <a href="#hero" class="up-arrow-btn"><i class="fa fa-angle-double-up"></i></a>
+          <a href="#navigation" class="up-arrow-btn"><i class="fa fa-angle-up"></i></a>
           <div class="container">
             <div class="row">
               <div class="col-md-12">
@@ -192,11 +139,14 @@ if($_POST["message"]) {
               <div class="col-md-6">
                 <ul class="legals">
                   
-                  <p> &raquo; <FONT SIZE = 2>Website Developed By <a href = "https://ca.linkedin.com/in/jhylee"><b>Joseph Lee</b> </a></FONT></p>
-                 
+                  <p> &raquo; Null Studios | All Rights Reserved ©</b> </a></FONT></p>
+                
                 </ul>
               </div>
               <div class="col-md-6 credit">
+                
+                <p> &raquo; Website Designed & Developed by <a href = "https://ca.linkedin.com/in/jhylee"><b>Joseph Lee</b></a></p>
+              
               </div>
             </div>
           </div>

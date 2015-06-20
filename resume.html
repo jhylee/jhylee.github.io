@@ -30,30 +30,28 @@ if($_POST["message"]) {
         <?php include_once("analyticstracking.php") ?>
         <header>
           
-<nav class="navbar navbar-default navbar-static-top" role="navigation">
-      <div class="navigation">
-        <div class="container">         
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse.collapse">
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-            <div class="navbar-brand">
-              <a href="index.html"><h1>joseph(<span>lee</span>);</h1></a>
-
-            </div>
-          </div>
+<nav class="navbar navbar-default navbar-static-top" role="navigation" id = "navigation">
+            <div class="navigation">
+              <div class="container">
+                <div class="navbar-header">
+                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse.collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    </button>
+                    <div class="navbar-brand">
+                      <a href="index.html"><h1>joseph(<span>lee</span>);</h1></a>
+                    </div>
+                  </div>
           
           <div class="navbar-collapse collapse">              
             <div class="menu">
               <ul class="nav nav-tabs" role="tablist">
                 <li role="presentation"><a href="index.html" >Home</a></li>
-                <li role="presentation"><a href="portfolio.html">Portfolio</a></li>
-                <li role="presentation"><a href="project.html">Project</a></li>
-                <li role="presentation"><a href="img/JosephLeeResume2015.pdf">Resume</a></li>
-                <li role="presentation"><a href="https://ca.linkedin.com/in/jhylee">Linkedin</a></li>        
+                <li role="presentation"><a href="portfolio.html">Portfolio</a></li>               
+                <li role="presentation"><a href="resume.html">Resume</a></li>
+                <li role="presentation"><a href="https://ca.linkedin.com/in/jhylee">Linkedin</a></li>
+
               </ul>
             </div>
           </div>            
@@ -61,48 +59,59 @@ if($_POST["message"]) {
       </div>  
     </nav>
 
-        <section class="swag2 text-center">
+        <section class="swag3 text-center">
           <div class="container">
             <div class="row">
               <div class="col-md-8 col-md-offset-2">
                 <div class="col-md-8 col-md-offset-2 text-center inner">
-                  <h1 class="animated fadeInDown"><b><FONT COLOR="FFFFFF">MY </b><b><FONT COLOR = "ea1616">Projects</b></FONT><br><b>& Experience</b></h1>
-                  
-
+                  <h1>My <FONT COLOR = "ea1616">Resume</FONT> 
+                    <a href = "#features"><FONT COLOR = "FFFFFF"><i class = "fa fa-file-pdf-o"></i></FONT></a></h1>
                 </div>
               </div>
             </div>
           </div>
         </section>
 
-        <section class="intro text-center section-padding" id="intro">
+        <section class="features2 text-center section-padding" id="features">
           <div class="container">
             <div class="row">
-              <div class="col-md-8 col-md-offset-2 wp1">
-                <h1 class="arrow">Hi There. You can call me Joe.</h1>
-                <p>I'm a third year student at UBC's Sauder School of Business, currently pursuing a combined major in business and computer science. I'm an avid technology evanglist and hopeful entrepreneur, looking to launch a future career in the the high-impact technology industry. Currently, I'm on an eight month co-op term in Calgary, Alberta, where I am working as an IT Business Analyst for the Upstream Production Delivery Vertical at Royal Dutch Shell.
-                <br> <br>
-                Aside from technology and work, you can find me either coding, drinking beer, or playing/watching hockey or football. Unfortunately, I'm a long suffering fan of the Ottawa Senators, Vancouver Canucks, and the Arizona Cardinals.</p>
-              </div>
-            </div>
-          </div>
-        </section>
-        <section class="intro text-center section-padding" id="intro">
-          <div class="container">
-            <div class="row">
-              <div class="col-md-8 col-md-offset-2 wp1">
-                <h1 class="arrow">Hi There. You can call me Joe.</h1>
-                <p>I'm a third year student at UBC's Sauder School of Business, currently pursuing a combined major in business and computer science. I'm an avid technology evanglist and hopeful entrepreneur, looking to launch a future career in the the high-impact technology industry. Currently, I'm on an eight month co-op term in Calgary, Alberta, where I am working as an IT Business Analyst for the Upstream Production Delivery Vertical at Royal Dutch Shell.
-                <br> <br>
-                Aside from technology and work, you can find me either coding, drinking beer, or playing/watching hockey or football. Unfortunately, I'm a long suffering fan of the Ottawa Senators, Vancouver Canucks, and the Arizona Cardinals.</p>
+              <div class="col-md-12">
+                <h1 class="arrow">My PROFESSIONAL RESUME</i></h1>
 
+                <div class="features-wrapper">
+                  <div class="col-md-4 wp2">
+                    <div class="icon">
+                      
+                      <i class="fa fa-code-fork"></i>
+                      
+                    </div>
+                    <h2>Technical Resume</h2>
+                    <p><b><a href = "img/TechnicalResume2015.pdf">Click Here</a></b></p>
+                  </div>
+                  <div class="col-md-4 wp2 delay-05s">
+                    <div class="icon">
+                      <i class="fa fa-bar-chart-o"></i>
+                    </div>
+                    <h2>Business Resume</h2>
+                    <p><b><a href = "img/JosephLeeResume2015.pdf">Click Here</a></b></p>
+                  </div>
+                  <div class="col-md-4 wp2 delay-1s">
+                    <div class="icon">
+                      <i class="fa fa-linkedin-square"></i>
+                    </div>
+                    <h2>LinkedIn Profile</h2>
+                    <p><b><a href = "https://ca.linkedin.com/in/jhylee">Click Here</a></b></p>
+                  </div>
+                  <div class="clearfix"></div>
+                </div>
               </div>
             </div>
           </div>
         </section>
+
 
         <section class="dark-bg text-center section-padding contact-wrap" id="contact">
-          <a href="#hero" class="up-arrow-btn"><i class="fa fa-angle-double-up"></i></a>
+          <a href="#navigation" class="up-arrow-btn"><i class="fa fa-angle-up"></i></a>
           <div class="container">
             <div class="row">
               <div class="col-md-12">
@@ -126,7 +135,7 @@ if($_POST["message"]) {
                 <div class="light-box box-hover">
 
                   <h2><i class="fa fa-envelope-o"></i><span><FONT COLOR = "353535">Email</FONT></span></h2>
-                  <p>jhylee[at]outlook.com</a></p>
+                  <p>joseph@jhylee.com</a></p>
 
                 </div>
 
@@ -140,17 +149,15 @@ if($_POST["message"]) {
             <div class="row">
               <div class="col-md-6">
                 <ul class="legals">
-                  <!--
-                  <p> &raquo; <FONT SIZE = 2>Photos & Website Developed By <a href = "https://ca.linkedin.com/in/jhylee"><b>Joseph Lee</b> </a></FONT></p>
-                --> 
+                  
+                  <p> &raquo; Null Studios | All Rights Reserved ©</b> </a></FONT></p>
+                
                 </ul>
               </div>
               <div class="col-md-6 credit">
-                <!--
-                <a href = "http://www.cus.ca"><img src="img/cus.png"></a>      
-                <a href = "http://www.sauder.ubc.ca"><img src="img/sauder.png" Hspace = "20"></a>
-                <a href = "http://www.ubc.ca"><img src="img/ubc.png"></a>
-              -->
+                
+                <p> &raquo; Website Designed & Developed by <a href = "https://ca.linkedin.com/in/jhylee"><b>Joseph Lee</b></a></p>
+              
               </div>
             </div>
           </div>
