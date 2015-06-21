@@ -138,25 +138,19 @@ Navigation
   padding:0px;
 }
 
-.btn-primary {
-  padding: 8px 20px;
-  background: #ED502E;
-  color: #fff;
-  border:none;
-  margin-top: 20px;
-} 
+
 
 .navbar-brand h1 {
   margin-top:5px;
   padding-top:5px;
   float: left;  
-  font-size: 25px;  
+  font-size: 30px;  
   color:#333;
-    font-weight: 200;
     text-transform: uppercase;
 }
 .navbar-brand h1 span {
   color: #ea1616 ;
+    font-weight: 600;
 }
 
 .menu {
@@ -235,12 +229,12 @@ CONTACT US
 .fa-angle-double-up {
     font-size: 50px;
 }
-.fa-github{
-font-size: 40px;}
-.fa-linkedin{
-font-size: 40px;}
+.fa-github-alt{
+font-size: 50px;}
+.fa-instagram{
+font-size: 50px;}
 .fa-envelope-o{
-font-size: 40px;}
+font-size: 50px;}
 
 .up-arrow-btn {margin: 10px auto 20px; color: #353535; font-size: 20px; line-height: 20px; text-align: center; }
 
