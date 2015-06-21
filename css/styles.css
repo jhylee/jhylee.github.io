@@ -138,6 +138,14 @@ Navigation
   padding:0px;
 }
 
+.btn-primary {
+  padding: 8px 20px;
+  background: #ED502E;
+  color: #fff;
+  border:none;
+  margin-top: 20px;
+} 
+
 .navbar-brand h1 {
   margin-top:5px;
   padding-top:5px;
