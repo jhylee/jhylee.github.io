@@ -50,8 +50,8 @@ Typography
  
 h1 { font-size: 2em; margin: 0.67em 0; color: #353535; }
 h2 { font-size: 1.5em; margin: 0.83em 0; }
-h3 { font-size: 1.17em; margin: 1em 0; }
-h4 { font-size: 1em; margin: 1.33em 0; }
+h3 { font-size: 1.17em; margin: 1em 0; font-weight: 600;}
+h4 { font-size: 1em; margin: 1.33em 0; font-weight: 600; font-style: italic;}
 h5 { font-size: 0.83em; margin: 1.67em 0; }
 h6 { font-size: 0.75em; margin: 2.33em 0; }
 /* * Addresses styling not present in IE 7/8/9, Safari 5, and Chrome. */
@@ -139,12 +139,13 @@ Navigation
 }
 
 .navbar-brand h1 {
-  margin-top:10px;
+  margin-top:5px;
   padding-top:5px;
   float: left;  
-  font-size: 30px;  
+  font-size: 25px;  
   color:#333;
-    font-weight: 100;
+    font-weight: 200;
+    text-transform: uppercase;
 }
 .navbar-brand h1 span {
   color: #ea1616 ;
@@ -168,7 +169,7 @@ Navigation
 .nav-tabs > li > a {  
   border-radius:0;
   color:#333;
-  padding:25px;
+  padding:15px;
 }
 
 .nav-tabs > li > a:hover {  
@@ -209,7 +210,7 @@ HI THERE MY NAME IS JOSPEH
 ========================================================================== */
 .intro { background: #edeaea; }
 .intro p { margin: 50px 0 0; }
-h1.arrow { font-size: 25px; text-transform: uppercase; color: #353535; letter-spacing: 1px; background: url('../img/h1-bg.png') no-repeat center bottom; padding-bottom: 30px; font-weight: bold; }
+h1.arrow { font-size: 25px; text-transform: uppercase; color: #353535; letter-spacing: 1px; background: url('../img/h1-bg.png') no-repeat center bottom; padding-bottom: 30px; padding-top: 0px; font-weight: bold; }
 
 /* ==========================================================================
 CONTACT US
@@ -262,10 +263,41 @@ PORTFOLIO SKILLS
 .features-wrapper, .team-wrapper { margin: 50px 0 0; }
 .icon { height: 180px; width: 175px; line-height: 175px; max-width: 100%; background: #c3bcbc; border-radius: 25%; -o-border-radius: 25%; -moz-border-radius: 25%; -webkit-border-radius: 25%; display: block; color: #fff; font-size: 55px; text-align: center; vertical-align: middle; position: relative; margin: 0 auto 50px; }
 
+
+/* ==========================================================================
+PORTFOLIO EXPERIENCE
+========================================================================== */
+
+#experience {
+    padding-top: 75px;
+    padding-bottom: 75px;
+    text-align: center;
+}
+
+.experience {
+    padding-left: 30px;
+    padding-right: 30px;
+    background: #e6e3e3;
+    background-color: #e6e3e3;
+    opacity: 0.8;
+    color: #242830;
+    display: inline-block;
+    text-align: center;
+}
+
+.filter {
+  -webkit-filter: brightness(0) invert(0);
+    opacity: 0.8;
+  filter: brightness(0) invert(0);
+}
+
+
+
 /* ==========================================================================
 PORTFOLIO SLIDES
 ========================================================================== */
-.effects { padding-left: 15px;}
+.effects { padding-left: 15px;
+padding-top: 20px;}
 .effects .img { position: relative; margin-bottom: 10px; position: relative; z-index: 1; overflow: hidden; }
 
 .overlay { display: block; position: absolute; z-index: 20;}
@@ -289,6 +321,18 @@ RESUME HEADER
 
 .fa-angle-up {
     font-size: 75px;
+}
+
+.fa-file-text-o {
+    font-size: 50px;
+}
+
+.fa-file-code-o {
+    font-size: 50px;
+}
+
+.fa-external-link {
+    font-size: 50px;
 }
 
 /* ==========================================================================
