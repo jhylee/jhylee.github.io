@@ -188,7 +188,7 @@ Navigation
 /* ==========================================================================
 PAGE HEADER
 ========================================================================== */
-.hero { background: url('../img/hero-bg.jpg') no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; padding: 85px 0 100px 0; height: auto; }
+.hero { background: url('../img/header.jpg') no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; padding: 85px 0 100px 0; height: auto; }
 .hero h1 { font-size: 70px; letter-spacing: 1px; margin: 0px; }
 .hero h1 span { color: #a1a9b0; display: block; }
 .hero p { letter-spacing: 1px; }
@@ -259,7 +259,7 @@ ul.legals li:last-child::after { content: ""; }
 /* ==========================================================================
 PORTFOLIO HEADER
 ========================================================================== */
-.swag2 { background: url('../img/irving.jpg') no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; background-attachment: fixed; padding: 120px 0; }
+.swag2 { background: url('../img/present.jpg') no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; background-attachment: fixed; padding: 120px 0; }
 .swag2 h1 { color: #fff; font-size: 55px; text-transform: uppercase; letter-spacing: 5px; }
 .swag2 h1 span { display: block; font-size: 10px; margin-top: 20px; }
 
