@@ -16,7 +16,7 @@ audio:not([controls]) { display: none; height: 0; }
 * Known issue:no IE 6 support. */
 [hidden] { display: none; }
 /* ==========================================================================
-Base
+BASE
 ========================================================================== */
 /* * 1. Corrects text resizing oddly in IE 6/7 when body `font-size` is set using
 *    `em` units.
@@ -35,7 +35,7 @@ html, button, input, select, textarea { font-family: "Lato", "Avant Garde", Avan
 /* * Addresses margins handled incorrectly in IE 6/7. */
 body { margin: 0; font-family: "Lato", "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif; }
 /* ==========================================================================
-Links
+LINKS
 ========================================================================== */
 /* * Addresses `outline` inconsistency between Chrome and other browsers. */
  
@@ -43,10 +43,8 @@ a:focus { outline: thin dotted; }
 /* * Improves readability when focused and also mouse hovered in all browsers. */
 a:active, a:hover { outline: 0; }
 /* ==========================================================================
-Typography
+TYPOGRAPHY
 ========================================================================== */
-/* * Addresses font sizes and margins set differently in IE 6/7.
-* Addresses font sizes within `section` and `article` in Firefox 4+, Safari 5, * and Chrome. */
  
 h1 { font-size: 2em; margin: 0.67em 0; color: #353535; }
 h2 { font-size: 1.5em; margin: 0.83em 0; }
@@ -79,7 +77,7 @@ sub, sup { font-size: 75%; line-height: 0; position: relative; vertical-align: b
 sup { top: -0.5em; }
 sub { bottom: -0.25em; }
 /* ==========================================================================
-Lists
+LISTS
 ========================================================================== */
 /* * Addresses margins set differently in IE 6/7. */
  
@@ -90,29 +88,19 @@ menu, ol, ul { padding: 0 0 0 40px; }
 /* * Corrects list images handled incorrectly in IE 7. */
 nav ul, nav ol { list-style: none; list-style-image: none; }
 /* ==========================================================================
-Embedded content
-========================================================================== */
-/* * 1. Removes border when inside `a` element in IE 6/7/8/9 and Firefox 3.
-* 2. Improves image quality when scaled in IE 7. */
- 
-img { border: 0; /* 1 */
--ms-interpolation-mode: bicubic; /* 2 */ }
-/* * Corrects overflow displayed oddly in IE 9. */
-svg:not(:root) { overflow: hidden; }
-/* ==========================================================================
-Figures
+FIGURES
 ========================================================================== */
 /* * Addresses margin not present in IE 6/7/8/9, Safari 5, and Opera 11. */
  
 figure { margin: 0; }
 
 /* ==========================================================================
-Tables
+TABLES
 ========================================================================== */
 /* * Remove most spacing between table cells. */
 table { border-collapse: collapse; border-spacing: 0; }
 /* ==========================================================================
-Global Styles
+GLOBAL STYLES
 ========================================================================== */
 a { color: #353535; -webkit-transition: all 0.5s; -moz-transition: all 0.5s; -o-transition: all 0.5s; transition: all 0.5s; }
 a:hover, a:focus { color: #ea1616; text-decoration: none; }
@@ -130,15 +118,13 @@ h2::after { content: " "; border: solid 2px #ea1616; display: block; width: 35px
 .nopadding { padding: 0; }
 .inner { padding-top: 20px; }
 /* ==========================================================================
-Navigation
+NAVIGATION BAR
 ========================================================================== */
 
 .navigation  {
   background-color:#fff;
   padding:0px;
 }
-
-
 
 .navbar-brand h1 {
   margin-top:0px;
@@ -188,10 +174,10 @@ Navigation
 /* ==========================================================================
 PAGE HEADER
 ========================================================================== */
-.hero { background: url('../img/header.jpg') no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; padding: 85px 0 100px 0; height: auto; }
-.hero h1 { font-size: 70px; letter-spacing: 1px; margin: 0px; }
-.hero h1 span { color: #a1a9b0; display: block; }
-.hero p { letter-spacing: 1px; }
+.header { background: url('../img/header.jpg') no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; padding: 85px 0 100px 0; height: auto; }
+.header h1 { font-size: 70px; letter-spacing: 1px; margin: 0px; }
+.header h1 span { color: #a1a9b0; display: block; }
+.header p { letter-spacing: 1px; }
 
 .down-arrow-btn {margin: 10px auto 20px; color: #fff; font-size: 20px; line-height: 40px; text-align: center; }
 
@@ -199,9 +185,9 @@ PAGE HEADER
 /* ==========================================================================
 WHO IS JOSEPH
 ========================================================================== */
-.swag { background: url('../img/Joseph-Lee.jpg') no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; background-attachment: fixed; padding: 120px 0; }
-.swag h1 { color: #fff; font-size: 40px; text-transform: uppercase; letter-spacing: 5px; }
-.swag h1 span { display: block; font-size: 30px; margin-top: 20px; }
+.joseph { background: url('../img/Joseph-Lee.jpg') no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; background-attachment: fixed; padding: 120px 0; }
+.joseph h1 { color: #fff; font-size: 40px; text-transform: uppercase; letter-spacing: 5px; }
+.joseph h1 span { display: block; font-size: 30px; margin-top: 20px; }
 
 .fa-angle-double-down {
     font-size: 75px;
@@ -259,9 +245,9 @@ ul.legals li:last-child::after { content: ""; }
 /* ==========================================================================
 PORTFOLIO HEADER
 ========================================================================== */
-.swag2 { background: url('../img/present.jpg') no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; background-attachment: fixed; padding: 120px 0; }
-.swag2 h1 { color: #fff; font-size: 55px; text-transform: uppercase; letter-spacing: 5px; }
-.swag2 h1 span { display: block; font-size: 10px; margin-top: 20px; }
+.joseph2 { background: url('../img/present.jpg') no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; background-attachment: fixed; padding: 120px 0; }
+.joseph2 h1 { color: #fff; font-size: 55px; text-transform: uppercase; letter-spacing: 5px; }
+.joseph2 h1 span { display: block; font-size: 10px; margin-top: 20px; }
 
 .fa-angle-down {
     font-size: 75px;
@@ -325,9 +311,9 @@ a.close-overlay { display: block; position: absolute; top: 0; right: 0; z-index:
 /* ==========================================================================
 RESUME HEADER
 ========================================================================== */
-.swag3 { background: url('../img/sauder.jpg') no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; background-attachment: fixed; padding: 120px 0; }
-.swag3 h1 { color: #fff; font-size: 60px; text-transform: uppercase; letter-spacing: 5px; font-weight: bold;}
-.swag3 h1 span { display: block; font-size: 30px; margin-top: 20px; }
+.joseph3 { background: url('../img/sauder.jpg') no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; background-attachment: fixed; padding: 120px 0; }
+.joseph3 h1 { color: #fff; font-size: 60px; text-transform: uppercase; letter-spacing: 5px; font-weight: bold;}
+.joseph3 h1 span { display: block; font-size: 30px; margin-top: 20px; }
 
 .fa-angle-up {
     font-size: 75px;
