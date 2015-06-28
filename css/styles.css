@@ -112,8 +112,10 @@ h2::after { content: " "; border: solid 2px #ea1616; display: block; width: 35px
 
 
 .light-box { background-color: rgb(255, 255, 255, 0);padding: 15px 0; }
+/*
 .box-hover { transition: all 500ms ease-in-out; -webkit-transition: all 500ms ease-in-out; -moz-transition: all 500ms ease-in-out; -o-transition: all 500ms ease-in-out; }
 .box-hover:hover, .box-hover:focus { transform: translate(0, 10px); -webkit-transform: translate(0, 10px); -ms-transform: translate(0, 10px); }
+*/
 .wrapper { height: 650px; }
 .nopadding { padding: 0; }
 .inner { padding-top: 20px; }
@@ -228,6 +230,14 @@ font-size: 50px;}
 .contact-details h2 { font-size: 20px; }
 .contact-details h2 span { display: block; color: #ea1616; text-transform: uppercase; letter-spacing: 1px; font-size: 14px; margin-top: 15px; }
 .contact-wrap { position: relative; }
+
+ul.social-buttons { list-style: none; margin: 0; padding: 0; }
+ul.social-buttons li { display: inline-block; margin-right: 10px; }
+ul.social-buttons li:last-child { margin-right: 0; }
+.social-btn { width: 40px; height: 40px; border-radius: 50%; -moz-border-radius: 50%; -webkit-border-radius: 50%; -o-border-radius: 50%; background: #242830; display: inline-block; color: #fff; font-size: 17px; line-height: 40px; text-align: center; }
+.social-btn:hover, .social-btn:focus { background: #ffffff; color: #ea1616; }
+.social { margin-top: 25px }
+
 
 /* ==========================================================================
 Footer
