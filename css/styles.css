@@ -123,7 +123,7 @@ h2::after { content: " "; border: solid 2px #ea1616; display: block; width: 35px
 /* ==========================================================================
 Preloader
 ========================================================================== */
-/* Preloader */
+/* Preloader 
 
 #preloader {
     position:fixed;
@@ -131,21 +131,23 @@ Preloader
     left:0;
     right:0;
     bottom:0;
-    background-color:#fff; /* change if the mask should have another color then white */
-    z-index:99; /* makes sure it stays on top */
+    background-color:#fff; 
+    z-index:99; 
 }
 
 #status {
     width:200px;
     height:200px;
     position:absolute;
-    left:50%; /* centers the loading animation horizontally one the screen */
-    top:50%; /* centers the loading animation vertically one the screen */
-    background-image:url(../img/status.gif); /* path to your loading animation */
+    left:50%; 
+    top:50%; 
+    background-image:url(../img/status.gif); 
     background-repeat:no-repeat;
     background-position:center;
-    margin:-100px 0 0 -100px; /* is width and height divided by two */
+    margin:-100px 0 0 -100px; 
 }
+*/
+
 /* ==========================================================================
 NAVIGATION BAR
 ========================================================================== */
