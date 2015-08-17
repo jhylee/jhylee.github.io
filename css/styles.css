@@ -265,6 +265,11 @@ PORTFOLIO HEADER
 .joseph2 h1 { color: #fff; font-size: 55px; text-transform: uppercase; letter-spacing: 5px; }
 .joseph2 h1 span { display: block; font-size: 10px; margin-top: 20px; }
 
+@media only screen and (max-width: 768px) {
+  .joseph2 h1 {
+    font-size: 50px;
+  }
+}
 .fa-angle-down {
     font-size: 75px;
 }
