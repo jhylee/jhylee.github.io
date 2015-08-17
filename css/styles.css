@@ -1,11 +1,11 @@
 /* ! normalize.css v1.0.0 | MIT License | git.io/normalize */
- 
+
 /* ==========================================================================
 HTML5 display definitions
 ========================================================================== */
- 
+
 /* * Corrects `block` display not defined in IE 6/7/8/9 and Firefox 3. */
- 
+
 article, aside, details, figcaption, figure, footer, header, hgroup, nav, section, summary { display: block; }
 /* * Corrects `inline-block` display not defined in IE 6/7/8/9 and Firefox 3. */
 audio, canvas, video { display: inline-block; *display: inline; *zoom: 1; }
@@ -22,7 +22,7 @@ BASE
 *    `em` units.
 * 2. Prevents iOS text size adjust after orientation change, without disabling
 *    user zoom. */
- 
+
 html { font-size: 100%; /* 1 */
 	-webkit-text-size-adjust: 100%; /* 2 */
 -ms-text-size-adjust: 100%; /* 2 */ }
@@ -38,14 +38,14 @@ body { margin: 0; font-family: "Lato", "Avant Garde", Avantgarde, "Century Gothi
 LINKS
 ========================================================================== */
 /* * Addresses `outline` inconsistency between Chrome and other browsers. */
- 
+
 a:focus { outline: thin dotted; }
 /* * Improves readability when focused and also mouse hovered in all browsers. */
 a:active, a:hover { outline: 0; }
 /* ==========================================================================
 TYPOGRAPHY
 ========================================================================== */
- 
+
 h1 { font-size: 2em; margin: 0.67em 0; color: #353535; }
 h2 { font-size: 1.5em; margin: 0.83em 0; }
 h3 { font-size: 1.17em; margin: 1em 0; font-weight: 600; color: #000000; font-size: 17px;}
@@ -80,7 +80,7 @@ sub { bottom: -0.25em; }
 LISTS
 ========================================================================== */
 /* * Addresses margins set differently in IE 6/7. */
- 
+
 dl, menu, ol, ul { margin: 1em 0; }
 dd { margin: 0 0 0 40px; }
 /* * Addresses paddings set differently in IE 6/7. */
@@ -91,7 +91,7 @@ nav ul, nav ol { list-style: none; list-style-image: none; }
 FIGURES
 ========================================================================== */
 /* * Addresses margin not present in IE 6/7/8/9, Safari 5, and Opera 11. */
- 
+
 figure { margin: 0; }
 
 /* ==========================================================================
@@ -131,8 +131,8 @@ NAVIGATION BAR
 .navbar-brand h1 {
   margin-top:0px;
   padding-top:0px;
-  float: left;  
-  font-size: 20px;  
+  float: left;
+  font-size: 20px;
   color:#333;
     text-transform: uppercase;
 }
@@ -145,7 +145,7 @@ NAVIGATION BAR
   font-size:15px;
   float:right;
   text-transform:uppercase;
-  font-weight:100;  
+  font-weight:100;
 }
 
 
@@ -156,17 +156,17 @@ NAVIGATION BAR
   float: left;
   margin-bottom: 0;
 }
-.nav-tabs > li > a {  
+.nav-tabs > li > a {
   border-radius:0;
   color:#333;
   padding:15px;
 }
 
-.nav-tabs > li > a:hover {  
+.nav-tabs > li > a:hover {
   color: #ea1616 ;
   border-color: #fff #fff #fff;
   border-radius:0;
-  background-color:#fff; 
+  background-color:#fff;
   transition: all 0.5s ease-in-out;
   -moz-transition: all 0.5s ease-in-out;
   -webkit-transition: all 0.5s ease-in-out;
@@ -179,6 +179,12 @@ PAGE HEADER
 .header { background: url('../img/header.jpg') no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; padding: 85px 0 100px 0; height: auto; }
 .header h1 { font-size: 70px; letter-spacing: 1px; margin: 0px; }
 .header h1 span { color: #a1a9b0; display: block; }
+
+@media only screen and (max-width: 768px) {
+  .header h1 {
+    font-size: 60px;
+  }
+}
 .header p { letter-spacing: 1px; }
 
 .down-arrow-btn {margin: 10px auto 20px; color: #fff; font-size: 20px; line-height: 40px; text-align: center; }
