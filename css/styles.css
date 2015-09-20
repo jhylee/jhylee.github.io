@@ -249,13 +249,12 @@ TECHNICAL SKILLS
 	font-size: 15px;
 	font-style: normal;
 	 text-transform: lowercase;
-	  letter-spacing: 5px;
+	  letter-spacing: 3px;
 }
 
 .skillspad {
-	padding-left: 80px;
-	padding-right: 80px;
-	text-align: auto;
+	letter-spacing: 3px;
+	text-align: center;
 }
 @media only screen and (max-width: 1000px) {
   .skillspad {
