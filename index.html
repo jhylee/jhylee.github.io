@@ -40,29 +40,30 @@ if($_POST["message"]) {
                   <span class="sr-only">Toggle navigation</span>
                   <span class="icon-bar"></span>
                   <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
                 </button>
                 <div class="navbar-brand">
                   <a href="index.html">
-                    <h1>
-                      <img src="img/logo.png" class="filter"></img>
-                    </h1>
+                    <img class="filter" src="img/logo.png"></img>
                   </a>
                 </div>
               </div>
 
               <div class="navbar-collapse collapse">
                 <div class="menu">
-                  <ul class="nav nav-tabs" role="tablist">
-                    <li role="presentation"><a href="index.html">Home</a></li>
-                    <li role="presentation"><a href="portfolio.html">Portfolio</a></li>
-                    <li role="presentation"><a href="resume.html">Resume</a></li>
-                    <li role="presentation"><a href="https://ca.linkedin.com/in/jhylee">Linkedin</a></li>
+                  <ul class="nav nav-tabs">
+                    <li><a href="#navigation">Home</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#contact">Contact</a></li>
                   </ul>
                 </div>
               </div>
             </div>
           </div>
         </nav>
+
         <section class="header" id="header">
           <div class="container">
             <div class="row">
@@ -80,7 +81,8 @@ if($_POST["message"]) {
               </div>
               <div class="row">
                 <div class="col-md-6 col-md-offset-3 text-center">
-                  <a href="#intro" class="down-arrow-btn"><i class="fa fa-angle-down"></i></a>
+                  <br>
+                  <a href="#intro" class="button">Click to see more</a>
                 </div>
               </div>
             </div>
@@ -88,30 +90,303 @@ if($_POST["message"]) {
         </section>
       </header>
 
-
-      <section class="joseph text-center">
+      <section class="intro text-center section-padding" id="intro">
         <div class="container">
           <div class="row">
-            <div class="col-md-8 col-md-offset-2">
-              <h1>Who is Joseph Lee? <i class="fa fa-hand-o-left"></i></h1>
-              <a href="portfolio.html" class="button">SEE MY PORTFOLIO</a>
+            <div class="col-lg-12 wp1">
+              <h1 class="arrow">About Me</h1>
+            </div>
+            <div class="col-md-7 wp1">
+              <div class="text-left up">
+                <p>Hi, my name is Joseph Lee and I’m a third year co-op student at the Sauder School and the University of British Columbia majoring in Business and Computer Science (BUCS). As an avid technology evangelist and hopeful entrepreneur, the BUCS
+                  program has been amazing fit, where I’ve had the opportunity to combine my interests in commerce (accounting, marketing, strategic consulting) with the computer science curriculum (algorithms, data structures, software engineering).
+                  After graduation, my ultimate goal is to enter the high-technology industry in a project management or technology consulting role, where I will have the opportunity to utilize a wide array of business and technical skillsets.
+                  <br>
+                  <br> Outside of academics, I’ve been in organized/competitive sports for nearly all of my life and as a result, I love playing and watching all forms of sports, especially hockey, football (both kinds), basketball, and of course hitting
+                  the links. Unfortunately, it pains me to say that I’m a long-suffering fan of the Senators, Canucks, and Arizona Cardinals (ironic how all three lost in their respective finals)...</p>
+              </div>
+            </div>
+            <div class="col-md-5 wp2">
+              <div class="padfix">
+                <img src="img/portrait.jpg" class="portrait"></img>
+              </div>
             </div>
           </div>
         </div>
       </section>
 
-      <section class="intro text-center section-padding" id="intro">
+
+      <section class="portfolio text-center section-padding" id="projects">
         <div class="container">
           <div class="row">
-            <div class="col-md-8 col-md-offset-2 wp1">
-              <h1 class="arrow">Hi There. You can call me Joe.</h1>
-              <p>I'm a freshly turned 20-year-old third year at UBC's Sauder School of Business, currently pursuing a combined major in business and computer science. I'm an avid technology evangelist and hopeful entrepreneur, looking to launch a future
-                career in the high-impact technology industry. Currently, I'm on an eight-month co-op term in Calgary, Alberta, where I am working as an IT Business Analyst for the Upstream Production Delivery Vertical at Royal Dutch Shell.
+            <h1 class="arrow">My Projects & Portfolio</h1>
+
+                  <div class="col-md-4 wp4 delay-05s">
+                    <div class="overlay-effect effects clearfix">
+                      <div class="img">
+                        <a href="https://drive.google.com/folderview?id=0B9BpjX5Hyh19bENGbmcwNVllRjQ&usp=sharing&tid=0B9BpjX5Hyh19OFZFUWFmZHlpbDg">
+                          <img class = "dimensions" src="img/projects/pointstreak.jpg">
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4 wp4 delay-1s">
+                    <div class="overlay-effect effects clearfix">
+                      <div class="img">
+                        <a href="http://nullstudios.me">
+                          <img class = "dimensions" src="img/projects/nullstudios.jpg">
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4 wp4 delay-05s">
+                    <div class="overlay-effect effects clearfix">
+                      <div class="img">
+                        <a href="img/JosephLeeResume2015.pdf">
+                          <img class = "dimensions" src="img/projects/resume.jpg">
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4 wp4 delay-05s">
+                    <div class="overlay-effect effects clearfix">
+                      <div class="img">
+                        <a href="https://github.com/jhylee/RestaurantQuizApp">
+                          <img class = "dimensions" src="img/projects/restaurantflip.png">
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4 wp4 delay-1s">
+                    <div class="overlay-effect effects clearfix">
+                      <div class="img">
+                        <a href="http://coastlinemarket.com">
+                          <img class = "dimensions" src="img/projects/coastline3.png">
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-4 wp4 delay-05s">
+                    <div class="overlay-effect effects clearfix">
+                      <div class="img">
+                        <a href="http://saudercoop.com">
+                          <img class = "dimensions" src="img/projects/cosas3.png">
+                        </a>
+                      </div>
+                    </div>
+
+                  </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      <section class="skills text-center" id="skills">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 text-center">
+              <h1>Technical Skills <i class="fa fa-pencil"></i></h1>
+            </div>
+
+            <div class="col-lg-6">
+              <h3>code</h3>
+              <div class="skillspad">
+                <h4>Java <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i></h4>
+                <h4>C++ <i class="fa fa-star"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i></h4>
+                <h4>HTML & CSS <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half-o"></i><i class="fa fa-star-o"></i></h4>
+                <h4>Javascript <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i></h4>
+                <h4>VBA <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i></h4>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <h3>business</h3>
+              <div class="skillspad">
+                <h4>Project Management <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-half-o"></i><i class="fa fa-star-o"></i></h4>
+                <h4>SharePoint & Visio <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-o"></i></h4>
+                <h4>Office Suite <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-o"></i></h4>
+                <h4>Agile Methodologies <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i></h4>
+                <h4>Business Technology <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-o"></i></h4>
+
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      <div class="center experience" id="experience">
+
+        <h1 class="arrow">
+          <FONT SIZE="7" COLOR="242830">Experience</FONT>
+        </h1>
+        <br>
+        <br>
+
+        <div class="col-md-6">
+          <h2 style="text-align: center">
+            <FONT SIZE="4" COLOR="242830">Select Work Experience</FONT>
+          </h2>
+          <br>
+          <div class="row">
+            <div class="col-md-3 img-inline">
+              <br>
+              <img src="img/shell.png" class="filter">
+            </div>
+            <div class="col-md-8" style="text-align: left;">
+              <h3>Royal Dutch Shell</h3>
+              <h4>IT Business Analyst Intern, Production DV
                 <br>
-                <br> Aside from technology and work, you can find me coding, drinking beer, or playing/watching hockey or football. Unfortunately, I'm a long-suffering fan of the Ottawa Senators, Vancouver Canucks, and the Arizona Cardinals.</p>
+                <FONT SIZE="2">May 2015 to Present</FONT>
+              </h4>
+
+              <p>
+                <FONT COLOR="000000" SIZE="2">Currently on an 8 month term in Calgary, some of my tasks/upcoming responsibilities include collborating with key stakeholders in Aberdeen, Houston, and Bangalore to deploy scripted mining aplications & carry out regression testing on
+                  HP BladeServers, managing a enterprise information migration project, and completing business analysis and process modelling for an Oracle database project.</FONT>
+              </p>
+            </div>
+          </div>
+          <br>
+          <div class="row">
+            <div class="col-md-3 img-inline">
+
+              <img src="img/nullstudios.png" class="filter">
+            </div>
+            <div class="col-md-8" style="text-align: left;">
+              <h3>Null Studios</h3>
+              <h4>
+                <FONT COLOR="000000">Founder & Web Developer
+                  <br>
+                  <FONT SIZE="2">April 2015 to Present</FONT>
+                </FONT>
+              </h4>
+
+              <p>
+                <FONT COLOR="000000" SIZE="2">The idea of Null Studios was conceived in 2014, with a mission of providing students with real development experience, while also providing local non-profits and small-scale organizations to get complementary consulting and web development
+                  services.
+              </p>
+            </div>
+          </div>
+          <br>
+          <div class="row">
+            <div class="col-md-3 img-inline">
+              <img src="img/pointstreak.png" class="filter">
+            </div>
+            <div class="col-md-8" style="text-align: left;">
+              <h3>Pointstreak Sports Technologies Inc.</h3>
+              <h4>Marketing & Project Management Intern
+                <br>
+                <FONT SIZE="2">May 2014 to August 2014</FONT>
+              </h4>
+
+              <p>
+                <FONT COLOR="000000" SIZE="2">My experience at Pointstreak has definitely been the highlight of my internship career thus far. Working in a cross-functional, start-up environment, I was tasked with a lot of autonomy from the get go. I gained exposure to the project
+                  maanagement lifecycle, various IT Tools, while I had the chance to manage and create various advertisements for our digital content strategy.</FONT>
+              </p>
+            </div>
+          </div>
+          <br>
+          <div class="row">
+            <div class="col-md-3 img-inline">
+              <img src="img/coursehero.png" class="filter">
+            </div>
+            <div class="col-md-8" style="text-align: left;">
+              <h3>Course Hero Inc.</h3>
+              <h4>Business Development Intern
+                <br>
+                <FONT SIZE="2">January 2014 to April 2014</FONT>
+              </h4>
+
+              <p>
+                <FONT COLOR="000000" SIZE="2">I managed my own student team, over four different post-secondary institutions. Through my efforts, I was able to donate over 130 books to African children, while surpassing my internship goals by over 140%.</FONT>
+              </p>
             </div>
           </div>
         </div>
+        <section>
+          <div class="col-md-6">
+            <h2 style="text-align: center">
+              <FONT SIZE="4" COLOR="242830">Academic & University Experience</FONT>
+            </h2>
+            <br>
+            <div class="row">
+              <div class="col-md-3 img-inline">
+                <br>
+                <img src="img/sauder.png" class="filter">
+              </div>
+              <div class="col-md-8" style="text-align: left;">
+                <h3>Co-op Student Association of Sauder</h3>
+                <h4>VP Information Technology
+                  <br>
+                  <FONT SIZE="2">May 2015 to Present</FONT>
+                </h4>
+
+                <p>
+                  <FONT COLOR="000000" SIZE="2">As VP Technology, I'm currently spearheading all technology based initiatives, while maintaining existing IT assets and media content. I'm also responsible for fully designing and developing an organizational website & file database.</FONT>
+                  <br>
+                  <br>
+
+                </p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-3 img-inline">
+                <img src="img/meinc.png" class="filter">
+              </div>
+              <div class="col-md-8" style="text-align: left;">
+                <h3>Me Inc. Conference</h3>
+                <h4>Director of Corporate Relations
+                  <br>
+                  <FONT SIZE="2">April 2014 to April 2015</FONT>
+                </h4>
+
+                <p>
+                  <FONT COLOR="000000" SIZE="2">I generated over $25,000 (130%+ year over year increase) in financial and in-kind sponsorships from major firms, such as First West Credit Union, CPA, KPMG, PwC, EY, Deloitte, Target, Auto West Group, and the Vancouver Whitecaps. Our
+                    conference was featured on VancityBuzz, and won Sauder's 2015 Conference of the Year. </FONT>
+                </p>
+
+
+                <h4>Marketing Aviator
+                  <br>
+                  <FONT SIZE="2">April 2014 to April 2015</FONT>
+                </h4>
+
+                <p>
+                  <FONT COLOR="000000" SIZE="2">I Successfully helped implement a digital marketing strategy that spanned across video, social media, print, and guerilla marketing. As a team, we sold out every event we hosted; a first in Me Inc.'s 10 year history.</FONT>
+                  <br>
+                  <br>
+                </p>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-md-3 img-inline">
+                <br>
+
+                <img src="img/ubc-logo-white.png" class="filter">
+              </div>
+              <div class="col-md-8" style="text-align: left;">
+                <h3>University of British Columbia</h3>
+                <h4>Combined Major in Business & Computer Science
+                  <br>
+                  <FONT SIZE="2">September 2013 to Present</FONT>
+                </h4>
+
+                <p>
+                  <FONT COLOR="000000" SIZE="2">
+                    Honours & Distinctions while in University:
+                    <br> • UBC Dean's Honour Roll Student (Cumulative GPA: 3.75)
+                    <br> • UBC Chancellor's Scholar
+                    <br> • Early Acceptance (1 Year Earlier) into Sauder's Co-op Program
+                    <br> • Hanin Investment Group Scholarship
+                    <br> • Deloitte National Leadership Conference 2015
+                    <br>
+                  </FONT>
+                </p>
+              </div>
+            </div>
+          </div>
+      </div>
       </section>
 
       <section class="dark-bg text-center section-padding contact-wrap" id="contact">
@@ -124,45 +399,37 @@ if($_POST["message"]) {
           </div>
 
           <div class="row contact-details">
-            <div class="col-md-4">
-              <div class="light-box box-hover">
-                <h2><i class="fa fa-github-alt"></i>
-                  <span>
-                    <FONT COLOR="353535">GitHub</FONT>
-                  </span>
-                </h2>
-                <p>My GitHub</p>
-                <ul class="social-buttons">
-                  <li><a href="https://github.com/jhylee" class="social-btn"><i class="fa fa fa-github"></i></a></li>
-                </ul>
-              </div>
+            <div class="col-md-3">
+              <h2><a href="https://github.com/jhylee"><i class="fa fa-github-alt"></a></i>
+                <span>
+                  <FONT COLOR="353535">GitHub</FONT>
+                </span>
+              </h2>
+              <p>github.com/jhylee</p>
             </div>
-            <div class="col-md-4">
-              <div class="light-box box-hover">
-                <h2><i class="fa fa-instagram"></i>
-                  <span>
-                    <FONT COLOR="353535">Instagram</FONT>
-                  </span>
-                </h2>
-                <p>@jhylee95</p>
-                <ul class="social-buttons">
-                  <li><a href="https://instagram.com/jhylee95" class="social-btn"><i class="fa fa-camera-retro"></i></a></li>
-                </ul>
-              </div>
+            <div class="col-md-3">
+              <h2><a href="https://instagram.com/jhylee95"><i class="fa fa-instagram"></a></i>
+                <span>
+                  <FONT COLOR="353535">Instagram</FONT>
+                </span>
+              </h2>
+              <p>@jhylee95</p>
             </div>
-            <div class="col-md-4">
-              <div class="light-box box-hover">
-
-                <h2><i class="fa fa-envelope-o"></i>
-                  <span>
-                    <FONT COLOR="353535">Email</FONT>
-                  </span>
-                </h2>
-                <p>joseph@jhylee.com</p>
-                <ul class="social-buttons">
-                  <li><a href="mailto:joseph@jhylee.com" class="social-btn"><i class="fa fa fa-paper-plane-o"></i></a></li>
-                </ul>
-              </div>
+            <div class="col-md-3">
+              <h2><a href="mailto:joseph@jhylee.com"><i class="fa fa-envelope-o"></a></i>
+                <span>
+                  <FONT COLOR="353535">Email</FONT>
+                </span>
+              </h2>
+              <p>joseph@jhylee.com</p>
+            </div>
+            <div class="col-md-3">
+              <h2><a href="https://ca.linkedin.com/in/jhylee"><i class="fa fa-linkedin-square"></a></i>
+                <span>
+                  <FONT COLOR="353535">LinkedIn</FONT>
+                </span>
+              </h2>
+              <p>linkedin/in/jhylee</p>
             </div>
           </div>
         </div>
@@ -180,12 +447,182 @@ if($_POST["message"]) {
               </ul>
             </div>
             <div class="col-md-6 credit">
-             <p>Made with
+              <p>Made with
                 <FONT COLOR="BF360C"><i class="fa fa-heart"></i></FONT> by <a href="http://nullstudios.me">Null Studios</a></p>
             </div>
           </div>
         </div>
       </footer>
+
+      <!-- Portfolio Modals -->
+      <!-- Use the modals below to showcase details about your portfolio projects! -->
+
+      <!-- Portfolio Modal 1 -->
+      <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl">
+              </div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 col-lg-offset-2">
+                <div class="modal-body">
+                  <!-- Project Details Go Here -->
+                  <div class="text-left">
+                    <h2>Home Deco Construction</h2>
+                    <br>
+
+                    <h1>
+                      <FONT COLOR="ea1616">Problem</FONT>
+                    </h1>
+                    <p>Home Deco Construction was a successful small business in Vancouver, B.C that was lacking a web platform or digital strategy.</p>
+
+                    <hr>
+                    <h1>
+                      <FONT COLOR="ea1616">Solution</FONT>
+                    </h1>
+                    <p>Null Studios derived a digital strategy that included advertising on local digital publications and integrating AdWords to reach more customers online. A responsive, modern website was also developed, showcasing past projects and clients.</p>
+
+                    <hr>
+                    <h1>
+                      <FONT COLOR="ea1616">Result</FONT>
+                    </h1>
+                    <p>Lead generation from online customers spiked significantly, while referrals increased significantly, as customers could simply direct their friends and family to the website, instead of referring Home Deco through word of mouth.
+                      <br> [Metrics witheld for confidentiality]</p>
+                    <p>
+                      <hr>
+                      <img src="img/portfolio/code.png" class="rounded">
+                      <img src="img/portfolio/homepage.png" class="rounded">
+                      <hr>
+                      <strong>Like what you see? Contact us today!</strong>
+                    </p>
+                    <ul class="list-inline">
+                      <p>Date: September 2015 | Client: Home Deco Construction</p>
+                    </ul>
+                  </div>
+                  <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Portfolio Modal 2 -->
+      <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl">
+              </div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 col-lg-offset-2">
+                <div class="modal-body">
+                  <!-- Project Details Go Here -->
+                  <div class="text-left">
+                    <h2>UBC Co-op Student Association of Sauder</h2>
+                    <br>
+                    <h1>
+                      <FONT COLOR="ea1616">Problem</FONT>
+                    </h1>
+                    <p>The previous website was designed poorly, and was not very user friendly. It was poorly formatted, not SEO optimized, meaning it was always at the bottom of the list dervied by a search engine. Averaging only seven website viewers
+                      per month, the website was in dire need of a refresh.</p>
+
+                    <hr>
+                    <h1>
+                      <FONT COLOR="ea1616">Solution</FONT>
+                    </h1>
+                    <p>We reviewed COSAS's existing website and content, while providing significant feedback on the user experience, look & feel, and site functionality. Understanding that most university students want a simplistic, modern interface where
+                      they can quickly find what they're looking for, we designed a one page website, integrated with an easy to access resource database for the latest resumes, cover letters, and supporting documents.</p>
+
+                    <h1>
+                      <hr>
+                      <FONT COLOR="ea1616">Result</FONT>
+                    </h1>
+                    <p>The new website received tremendous support and feedback from COSAS's users, who praised the cohesive web experience and ease of use. The website had over 300 unique visitors during the first week of launch & through SEO Optimization,
+                      we were able to make the site easily searchable through search engines.</p>
+
+
+                    <hr>
+                    <img src="img/portfolio/cosasold.png" class="rounded">
+                    <img src="img/portfolio/cosasnew.png" class="rounded">
+                    <img src="img/portfolio/cosasportfolio.png" class="rounded">
+                    <hr>
+
+                    <strong>Like what you see? Contact us today!</strong>
+                    </p>
+                    <ul class="list-inline">
+                      <p>Date: July 2015 | Client: UBC Sauder Co-op Student Association</p>
+                    </ul>
+                  </div>
+                  <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Portfolio Modal 3 -->
+      <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl">
+              </div>
+            </div>
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-8 col-lg-offset-2">
+                <div class="modal-body">
+                  <!-- Project Details Go Here -->
+                  <div class="text-left">
+                    <h2>Independent Personal Website</h2>
+                    <br>
+                    <h1>
+                      <FONT COLOR="ea1616">Problem</FONT>
+                    </h1>
+                    <p>Joseph Lee wanted a portfolio-themed website to showcase his experience, skills, and expertise to potential employers and collaborators.</p>
+                    <hr>
+                    <h1>
+                      <FONT COLOR="ea1616">Solution</FONT>
+                    </h1>
+                    <p>Primarily utilizing HTML and CSS, Null Studios developed a clean, responsive website, with a main landing page, a portfolio section, as well as a resume section.</p>
+                    <hr>
+                    <h1>
+                      <FONT COLOR="ea1616">Result</FONT>
+                    </h1>
+                    <p>After only a week of launching the website, there were over 700 sessions, 90.61% new sessions, and 1000+ page views. This was all done without any social media marketing (purely SEO). </p>
+
+                    <hr>
+                    <img src="img/portfolio/resume.png" class="rounded">
+                    <img src="img/portfolio/analytics.png" class="rounded">
+                    <hr>
+
+                    <strong>Like what you see? Contact us today!</strong>
+                    </p>
+
+                    <ul class="list-inline">
+                      <p>Date: August 2015 | Client: Personal</p>
+                    </ul>
+                  </div>
+                  <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
       <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
       <!-- Include all compiled plugins (below), or include individual files as needed -->
