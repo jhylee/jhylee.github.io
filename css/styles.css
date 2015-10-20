@@ -177,6 +177,8 @@ NAVIGATION BAR
 		margin-top: -10px;
 }
 
+
+
 .menu {
   font-size:15px;
   float:right;
@@ -212,7 +214,8 @@ NAVIGATION BAR
 /* ==========================================================================
 PAGE HEADER
 ========================================================================== */
-.header { background: url('../img/header.jpg') no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; padding: 85px 0 100px 0; height: auto; }
+.header { background: url('../img/header.jpg') no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; padding: 85px 0 100px 0; height: auto;
+overflow-x: hidden;}
 .header h1 { font-size: 70px; letter-spacing: 1px; margin: 0px; }
 .header h1 span { color: #a1a9b0; display: block; }
 
@@ -234,6 +237,7 @@ TECHNICAL SKILLS
   -o-background-size: cover; background-size: cover;
 	 background-attachment: fixed;
 	  padding: 40px 0;
+		overflow-x: hidden;
 	 }
 .skills h1 { color: #fff; font-size: 40px; text-transform: uppercase; letter-spacing: 5px; }
 .skills h1 span { display: block; font-size: 30px; margin-top: 20px; }
@@ -280,7 +284,8 @@ REDIRECT BUTTON (TO PORTFOLIO)
 /* ==========================================================================
 ABOUT ME
 ========================================================================== */
-.intro { background: #e2e2e2; }
+.intro { background: #e2e2e2;
+         overflow-x: hidden;}
 .intro p { margin: 50px 0 0; }
 h1.arrow { font-size: 25px; text-transform: uppercase; color: #353535; letter-spacing: 1px; background: url('../img/h1-bg.png') no-repeat center bottom; padding-bottom: 30px; padding-top: 0px; font-weight: bold; }
 
@@ -305,7 +310,7 @@ CONTACT US
 /* ==========================================================================
 Footer
 ========================================================================== */
-footer a { color: #a1a9b0;}
+footer a { color: #a1a9b0; overflow-x: hidden;}
 footer { background-color: #242830; padding: 30px 0 30px; opacity: 0.8;}
 footer p { color: #fff; }
 ul.legals { list-style: none; color: #fff; line-height: 0px; }
@@ -314,22 +319,6 @@ ul.legals li::after { content: " "; }
 ul.legals li:last-child::after { content: ""; }
 .legals { text-align: left; }
 .credit { text-align: right; }
-
-/* ==========================================================================
-PORTFOLIO HEADER
-========================================================================== */
-.joseph2 { background: url('../img/present.jpg') no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; background-attachment: fixed; padding: 120px 0; }
-.joseph2 h1 { color: #fff; font-size: 55px; text-transform: uppercase; letter-spacing: 5px; }
-.joseph2 h1 span { display: block; font-size: 10px; margin-top: 20px; }
-
-@media only screen and (max-width: 768px) {
-  .joseph2 h1 {
-    font-size: 40px;
-  }
-}
-.fa-angle-down {
-    font-size: 75px;
-}
 
 /* ==========================================================================
 PORTFOLIO SKILLS
@@ -357,18 +346,20 @@ PORTFOLIO EXPERIENCE
     color: #242830;
     display: inline-block;
     text-align: center;
+		overflow-x: hidden;
 }
 
 .filter {
   -webkit-filter: brightness(0) invert(0);
     opacity: 0.8;
   filter: brightness(0) invert(0);
+	max-width: 90%;
 }
 
-.dimenstions{
-	max-width: 100%;
-	max-height:100%;
+.dimensions{
+	max-height: 250px;
 }
+
 
 /* ==========================================================================
 PORTFOLIO SLIDES
@@ -383,9 +374,9 @@ a.close-overlay { display: block; position: absolute; top: 0; right: 0; z-index:
 
 .overlay-effect .img i { font-size: 30px; }
 .overlay-effect .overlay { bottom: 0; left: 0; right: 0; width: 100%; height: 100%; opacity: 0; }
-.overlay-effect .overlay a.expand { left: 0; right: 0; bottom: 47%; margin: 0 auto -30px auto; }
+.overlay-effect .overlay a.expand { left: 0; right: 0; bottom: 47%; margin: 0 auto 0px auto; }
 .overlay-effect .img.hover .overlay { height: 100%; opacity: 1; }
-.img img { width: -webkit-calc(100% + 60px) !important; width: calc(100% + 60px) !important; -webkit-transition: opacity 0.35s, -webkit-transform 0.35s; transition: opacity 0.35s, transform 0.35s; -moz-transition: opacity 0.35s, -moz-transform 0.35s; -o-transition: opacity 0.35s, -o-transform 0.35s; -webkit-transform: translate3d(-40px, 0, 0); transform: translate3d(-40px, 0, 0); -ms-transform: translate3d(-40px, 0, 0); }
+.img img { width: -webkit-calc(100% + 0px) !important; width: calc(100% + 0px) !important; -webkit-transition: opacity 0.35s, -webkit-transform 0.35s; transition: opacity 0.35s, transform 0.35s; -moz-transition: opacity 0.35s, -moz-transform 0.35s; -o-transition: opacity 0.35s, -o-transform 0.35s;  }
 .img:hover img { zoom: 1;
 	filter: alpha(opacity=80);
   opacity: 0.5;
@@ -401,28 +392,6 @@ a.close-overlay { display: block; position: absolute; top: 0; right: 0; z-index:
 
 .padfix{
 	padding-top: 50px;
-}
-/* ==========================================================================
-RESUME HEADER
-========================================================================== */
-.joseph3 { background: url('../img/sauder.jpg') no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; background-attachment: fixed; padding: 120px 0; }
-.joseph3 h1 { color: #fff; font-size: 60px; text-transform: uppercase; letter-spacing: 5px; font-weight: bold;}
-.joseph3 h1 span { display: block; font-size: 30px; margin-top: 20px; }
-
-.fa-angle-up {
-    font-size: 75px;
-}
-
-.fa-file-text-o {
-    font-size: 50px;
-}
-
-.fa-file-code-o {
-    font-size: 50px;
-}
-
-.fa-external-link {
-    font-size: 50px;
 }
 
 /* ==========================================================================
