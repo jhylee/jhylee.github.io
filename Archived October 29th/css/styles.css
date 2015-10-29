@@ -49,7 +49,7 @@ TYPOGRAPHY
 h1 { font-size: 2em; margin: 0.67em 0; color: #353535; }
 h2 { font-size: 1.5em; margin: 0.83em 0; }
 h3 { font-size: 1.17em; margin: 1em 0; font-weight: 600; color: #000000; font-size: 17px;}
-h4 { font-size: 1em; margin: 1.33em 0; font-weight: 600; font-style: italic; color: #000000;}
+h4 { font-size: 1em; margin: 1.33em 0; font-weight: 600; color: #000000;}
 h5 { font-size: 0.83em; margin: 1.67em 0; }
 h6 { font-size: 0.75em; margin: 2.33em 0; }
 /* * Addresses styling not present in IE 7/8/9, Safari 5, and Chrome. */
@@ -107,8 +107,8 @@ a:hover, a:focus { color: #ea1616; text-decoration: none; }
 p { color: #8c9398; word-spacing: 1px; line-height: 22px; font-size: 15px; }
 h2 { font-size: 15px; color: #353535; text-transform: uppercase; font-weight: bold; }
 h2::after { content: " "; border: solid 2px #ea1616; display: block; width: 35px; margin: 25px auto; }
-.section-padding { padding: 90px 0 100px }
-.dark-bg { background: #e2e2e2; }
+.section-padding { padding: 100px 0 100px }
+.dark-bg { background: #e2e2e2; padding-top: 50px;}
 
 
 .light-box { background-color: rgb(255, 255, 255, 0);padding: 15px 0; }
@@ -123,7 +123,7 @@ h2::after { content: " "; border: solid 2px #ea1616; display: block; width: 35px
 /* ==========================================================================
 Preloader
 ========================================================================== */
-/* Preloader 
+/* Preloader
 
 #preloader {
     position:fixed;
@@ -131,20 +131,20 @@ Preloader
     left:0;
     right:0;
     bottom:0;
-    background-color:#fff; 
-    z-index:99; 
+    background-color:#fff;
+    z-index:99;
 }
 
 #status {
     width:200px;
     height:200px;
     position:absolute;
-    left:50%; 
-    top:50%; 
-    background-image:url(../img/status.gif); 
+    left:50%;
+    top:50%;
+    background-image:url(../img/status.gif);
     background-repeat:no-repeat;
     background-position:center;
-    margin:-100px 0 0 -100px; 
+    margin:-100px 0 0 -100px;
 }
 */
 
@@ -154,21 +154,30 @@ NAVIGATION BAR
 
 .navigation  {
   background-color:#fff;
-  padding:0px;
+	position: fixed;
+	width: 100%;
+	padding-bottom: 10px;
+	padding-top: 0px;
+	opacity: 0.85;
 }
 
-.navbar-brand h1 {
-  margin-top:0px;
-  padding-top:0px;
+
+.navbar-brand {
+	margin: -5px;
   float: left;
-  font-size: 20px;
   color:#333;
-    text-transform: uppercase;
+  text-transform: uppercase;
 }
-.navbar-brand h1 span {
+.navbar-brand span {
   color: #ea1616 ;
     font-weight: 600;
 }
+.navbar-brand i {
+    font-size: 40px;
+		margin-top: -10px;
+}
+
+
 
 .menu {
   font-size:15px;
@@ -205,7 +214,8 @@ NAVIGATION BAR
 /* ==========================================================================
 PAGE HEADER
 ========================================================================== */
-.header { background: url('../img/header.jpg') no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; padding: 85px 0 100px 0; height: auto; }
+.header { background: url('../img/header.jpg') no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; padding: 85px 0 100px 0; height: auto;
+overflow-x: hidden;}
 .header h1 { font-size: 70px; letter-spacing: 1px; margin: 0px; }
 .header h1 span { color: #a1a9b0; display: block; }
 
@@ -220,15 +230,48 @@ PAGE HEADER
 
 
 /* ==========================================================================
-WHO IS JOSEPH
+TECHNICAL SKILLS
 ========================================================================== */
-.joseph { background: url('../img/Joseph-Lee.jpg') no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; background-attachment: fixed; padding: 120px 0; }
-.joseph h1 { color: #fff; font-size: 40px; text-transform: uppercase; letter-spacing: 5px; }
-.joseph h1 span { display: block; font-size: 30px; margin-top: 20px; }
+.skills { background: url('../img/techskills.jpg') no-repeat center center;
+ -webkit-background-size: cover; -moz-background-size: cover;
+  -o-background-size: cover; background-size: cover;
+	 background-attachment: fixed;
+	  padding: 40px 0;
+		overflow-x: hidden;
+	 }
+.skills h1 { color: #fff; font-size: 40px; text-transform: uppercase; letter-spacing: 5px; }
+.skills h1 span { display: block; font-size: 30px; margin-top: 20px; }
 
-.fa-angle-double-down {
-    font-size: 75px;
+.skills h3 {
+	color: #fff;
+	font-size: 20px;
+	 text-transform: uppercase;
+	  letter-spacing: 5px;
 }
+.skills h4 {
+	color: #fff;
+	font-size: 15px;
+	font-style: normal;
+	 text-transform: lowercase;
+	  letter-spacing: 3px;
+}
+
+.skillspad {
+	letter-spacing: 3px;
+	text-align: center;
+}
+@media only screen and (max-width: 1000px) {
+  .skillspad {
+    text-align: center;
+		padding-left: auto;
+		padding-right: auto;
+  }
+}
+
+.skillspad i {
+	color: #FF9800;
+}
+
 
 /* ==========================================================================
 REDIRECT BUTTON (TO PORTFOLIO)
@@ -239,9 +282,10 @@ REDIRECT BUTTON (TO PORTFOLIO)
 
 
 /* ==========================================================================
-HI THERE MY NAME IS JOSPEH
+ABOUT ME
 ========================================================================== */
-.intro { background: #edeaea; }
+.intro { background: #e2e2e2;
+         overflow-x: hidden;}
 .intro p { margin: 50px 0 0; }
 h1.arrow { font-size: 25px; text-transform: uppercase; color: #353535; letter-spacing: 1px; background: url('../img/h1-bg.png') no-repeat center bottom; padding-bottom: 30px; padding-top: 0px; font-weight: bold; }
 
@@ -249,59 +293,37 @@ h1.arrow { font-size: 25px; text-transform: uppercase; color: #353535; letter-sp
 CONTACT US
 ========================================================================== */
 
-.fa-angle-double-up {
-    font-size: 50px;
-}
-.fa-github-alt{
-font-size: 50px;}
-.fa-instagram{
-font-size: 50px;}
-.fa-envelope-o{
-font-size: 50px;}
 
 .up-arrow-btn {margin: 10px auto 20px; color: #353535; font-size: 20px; line-height: 20px; text-align: center; }
 
-.contact-details { margin: 70px 0; }
+.contact-details { margin: 30px 0; margin-bottom: 20px;}
 .contact-details h2 { font-size: 20px; }
 .contact-details h2 span { display: block; color: #ea1616; text-transform: uppercase; letter-spacing: 1px; font-size: 14px; margin-top: 15px; }
+.contact-details i {
+	font-size: 60px;
+}
 .contact-wrap { position: relative; }
 
-ul.social-buttons { list-style: none; margin: 0; padding: 0; }
-ul.social-buttons li { display: inline-block; margin-right: 10px; }
-ul.social-buttons li:last-child { margin-right: 0; }
-.social-btn { width: 40px; height: 40px; border-radius: 50%; -moz-border-radius: 50%; -webkit-border-radius: 50%; -o-border-radius: 50%; background: #242830; display: inline-block; color: #fff; font-size: 17px; line-height: 40px; text-align: center; }
-.social-btn:hover, .social-btn:focus { background: #ffffff; color: #ea1616; }
 .social { margin-top: 25px }
 
 
 /* ==========================================================================
 Footer
 ========================================================================== */
-footer a { color: #a1a9b0;}
+footer a { color: #a1a9b0; overflow-x: hidden;}
 footer { background-color: #242830; padding: 30px 0 30px; opacity: 0.8;}
 footer p { color: #fff; }
-ul.legals { list-style: none; color: #fff; line-height: 0px; }
-ul.legals li { display: inline-block; }
-ul.legals li::after { content: " "; }
-ul.legals li:last-child::after { content: ""; }
-.legals { text-align: left; }
-.credit { text-align: right; }
 
-/* ==========================================================================
-PORTFOLIO HEADER
-========================================================================== */
-.joseph2 { background: url('../img/present.jpg') no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; background-attachment: fixed; padding: 120px 0; }
-.joseph2 h1 { color: #fff; font-size: 55px; text-transform: uppercase; letter-spacing: 5px; }
-.joseph2 h1 span { display: block; font-size: 10px; margin-top: 20px; }
+.legal { text-align: left; }
+.credit { text-align: right;
+           }
+.legal p {
+	color: #fff;
+}
+.legal span {
+	color: #BF360C;
+}
 
-@media only screen and (max-width: 768px) {
-  .joseph2 h1 {
-    font-size: 40px;
-  }
-}
-.fa-angle-down {
-    font-size: 75px;
-}
 
 /* ==========================================================================
 PORTFOLIO SKILLS
@@ -329,15 +351,28 @@ PORTFOLIO EXPERIENCE
     color: #242830;
     display: inline-block;
     text-align: center;
+		overflow-x: hidden;
 }
 
 .filter {
   -webkit-filter: brightness(0) invert(0);
     opacity: 0.8;
   filter: brightness(0) invert(0);
+	max-width: 90%;
 }
 
+.dimensions{
+	margin-right: :10px;
+	height: 100%;
+  border-radius: 10px;
+}
 
+@media only screen and (max-width: 1280px) {
+  .dimensions {
+		width: 100%;
+		height: 100%;
+  }
+}
 
 /* ==========================================================================
 PORTFOLIO SLIDES
@@ -352,41 +387,34 @@ a.close-overlay { display: block; position: absolute; top: 0; right: 0; z-index:
 
 .overlay-effect .img i { font-size: 30px; }
 .overlay-effect .overlay { bottom: 0; left: 0; right: 0; width: 100%; height: 100%; opacity: 0; }
-.overlay-effect .overlay a.expand { left: 0; right: 0; bottom: 47%; margin: 0 auto -30px auto; }
+.overlay-effect .overlay a.expand { left: 0; right: 0; bottom: 47%; margin: 0 auto 0px auto; }
 .overlay-effect .img.hover .overlay { height: 100%; opacity: 1; }
-.img img { width: -webkit-calc(100% + 40px) !important; width: calc(100% + 40px) !important; -webkit-transition: opacity 0.35s, -webkit-transform 0.35s; transition: opacity 0.35s, transform 0.35s; -moz-transition: opacity 0.35s, -moz-transform 0.35s; -o-transition: opacity 0.35s, -o-transform 0.35s; -webkit-transform: translate3d(-40px, 0, 0); transform: translate3d(-40px, 0, 0); -ms-transform: translate3d(-40px, 0, 0); }
-.img:hover img { -webkit-transform: translate3d(0, 0, 0); transform: translate3d(0, 0, 0); -ms-transform: translate3d(-40px, 0, 0); }
+.img img { width: -webkit-calc(100% + 0px) !important; width: calc(100% + 0px) !important; -webkit-transition: opacity 0.35s, -webkit-transform 0.35s; transition: opacity 0.35s, transform 0.35s; -moz-transition: opacity 0.35s, -moz-transform 0.35s; -o-transition: opacity 0.35s, -o-transform 0.35s;  }
+.img:hover img { zoom: 1;
+	filter: alpha(opacity=80);
+  opacity: 0.5;
+   }
+
 .designs { position: absolute; left: 0; right: 0; margin-left: auto; margin-right: auto; top: 0px; }
 
+.portrait {
+	width: 100%;
+	border-radius: 75px;
+	border:5px solid #BDBDBD;
+}
+
+.padfix{
+	padding-top: 50px;
+}
+
+.portfolio {
+	padding-left: 0px;
+	padding-right: 20px;
+
+}
 /* ==========================================================================
-RESUME HEADER
+PORTFOLIO & MODALS
 ========================================================================== */
-.joseph3 { background: url('../img/sauder.jpg') no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; background-attachment: fixed; padding: 120px 0; }
-.joseph3 h1 { color: #fff; font-size: 60px; text-transform: uppercase; letter-spacing: 5px; font-weight: bold;}
-.joseph3 h1 span { display: block; font-size: 30px; margin-top: 20px; }
-
-.fa-angle-up {
-    font-size: 75px;
-}
-
-.fa-file-text-o {
-    font-size: 50px;
-}
-
-.fa-file-code-o {
-    font-size: 50px;
-}
-
-.fa-external-link {
-    font-size: 50px;
-}
-
-/* ==========================================================================
-RESUME TYPES
-========================================================================== */
-.features-wrapper, .team-wrapper { margin: 50px 0 0; }
-.icon { height: 180px; width: 175px; line-height: 175px; max-width: 100%; background: #353535; border-radius: 25%; -o-border-radius: 25%; -moz-border-radius: 25%; -webkit-border-radius: 25%; display: block; color: #fff; font-size: 55px; text-align: center; vertical-align: middle; position: relative; margin: 0 auto 50px; }
-
 
 /* ==========================================================================
 FlexSlider Custom CSS

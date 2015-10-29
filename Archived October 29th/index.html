@@ -20,9 +20,7 @@ if($_POST["message"]) {
     <link href="css/styles.css" rel="stylesheet">
     <link href="css/queries.css" rel="stylesheet">
     <link href="css/animate.css" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="css/portfolio.css" />
-    <link rel="stylesheet" type="text/css" href="css/component.css" />
-    <script src="js/modernizr.custom.js"></script>
+
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -46,23 +44,21 @@ if($_POST["message"]) {
                   <span class="icon-bar"></span>
                   <span class="icon-bar"></span>
                 </button>
-                <!--
                 <div class="navbar-brand">
                   <a href="index.html">
                     <img class="filter" src="img/logo.png"></img>
                   </a>
                 </div>
-              -->
               </div>
 
               <div class="navbar-collapse collapse">
                 <div class="menu">
                   <ul class="nav nav-tabs">
-                    <li><a class="page-scroll" href="#navigation">Home</a></li>
-                    <li><a class="page-scroll" href="#projects">Projects</a></li>
-                    <li><a class="page-scroll" href="#skills">Skills</a></li>
-                    <li><a class="page-scroll" href="#resume">Experience</a></li>
-                    <li class="navbar-nav contact"><a class="page-scroll" href="#contact">Contact</a></li>
+                    <li><a href="#navigation">Home</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li class="navbar-nav contact"><a href="#contact">Contact</a></li>
                   </ul>
                 </div>
               </div>
@@ -75,23 +71,20 @@ if($_POST["message"]) {
             <div class="row">
               <div class="col-md-8 col-md-offset-2 text-center inner">
                 <h1 class="animated fadeInDown">
-                  HELLO, MY NAME IS <span>JOSEPH LEE</span>
+                  <FONT COLOR="FFFFFF">HELLO, MY NAME
+                    <BR>IS <b><FONT COLOR = "ea1616">JOSEPH LEE</b></FONT>
                 </h1>
-
                 <p class="animated fadeInUp delay-05s">
-                  Business Student, Technology Entrepreneur, Sports Fanatic
+                  <FONT COLOR="FFFFFF">Business Student, Technology Entrepreneur, Sports Fanatic</FONT>
                 </p>
                 <p class="animated fadeInUp delay-1s">
-                  Commerce & Computer Science Major at <b>UBC Vancouver</b>
+                  <FONT COLOR="FFFFFF">Commerce & Computer Science Major at <b>UBC Vancouver</b></FONT>
                 </p>
               </div>
               <div class="row">
                 <div class="col-md-6 col-md-offset-3 text-center">
                   <br>
-                  <!--
                   <a href="#intro" class="button">Click to see more</a>
-                -->
-                <a href="#intro" class="btn btn-blue">Click To See More</a>
 
                 </div>
               </div>
@@ -100,13 +93,15 @@ if($_POST["message"]) {
         </section>
       </header>
 
+
+
       <section class="intro text-center section-padding" id="intro">
         <div class="container">
           <div class="row">
             <div class="col-lg-12 wp1">
               <h1 class="arrow">About Me</h1>
             </div>
-            <div class="col-md-7 wp1 delay-05s">
+            <div class="col-md-7 wp1">
               <div class="text-left up">
                 <p>Hi, my name is Joseph Lee and I’m a third year co-op student at the Sauder School and the University of British Columbia majoring in Business and Computer Science (BUCS). As an avid technology evangelist and hopeful entrepreneur, the BUCS
                   program has been amazing fit, where I’ve had the opportunity to combine my interests in commerce (accounting, marketing, strategic consulting) with the computer science curriculum (algorithms, data structures, software engineering).
@@ -116,7 +111,7 @@ if($_POST["message"]) {
                   the links. Unfortunately, it pains me to say that I’m a long-suffering fan of the Senators, Canucks, and Arizona Cardinals (ironic how all three lost in their respective finals)...</p>
               </div>
             </div>
-            <div class="col-md-5 wp2 delay-1s">
+            <div class="col-md-5 wp2">
               <div class="padfix">
                 <img src="img/portrait.jpg" class="portrait"></img>
               </div>
@@ -125,79 +120,12 @@ if($_POST["message"]) {
         </div>
       </section>
 
+
       <section class="portfolio text-center section-padding" id="projects">
-        <div class="container2 demo-3">
+        <div class="container">
           <div class="row">
-            <h1 class="arrow-white">My Projects & Portfolio</h1>
-              <ul class="grid cs-style-3">
-                <li class = "wp4">
-                  <figure>
-                    <img src="img/projects/query.png" alt="img04">
-                    <figcaption>
-                      <h3>Query</h3>
-                      <span>Winner @ HackingEDU 2015</span>
-                      <a href="http://devpost.com/software/query-sctlva">Details</a>
-                    </figcaption>
-                  </figure>
-                </li>
+            <h1 class="arrow">My Projects & Portfolio</h1>
 
-                <li class = "wp4 delay-05s">
-                  <figure>
-                    <img src="img/projects/identifai.png" alt="img01">
-                    <figcaption>
-                      <h3>IdentifaiME</h3>
-                      <span>Winner @ DubHacks 2015</span>
-                      <a href="http://devpost.com/software/identifai-me">Details</a>
-                    </figcaption>
-                  </figure>
-                </li>
-
-                <li class = "wp4 delay-1s">
-                  <figure>
-                    <img src="img/projects/coastline.png" alt="img02">
-                    <figcaption>
-                      <h3>Coastline Market</h3>
-                      <span>Startup</span>
-                      <a href="http://coastlinemarket.com">Details</a>
-                    </figcaption>
-                  </figure>
-                </li>
-
-                <li class = "wp4 delay-1s">
-                  <figure>
-                    <img src="img/projects/restaurantflip.png" alt="img05">
-                    <figcaption>
-                      <h3>RestaurantQuiz</h3>
-                      <span>Android Project</span>
-                      <a href="https://github.com/jhylee/RestaurantQuizApp">Details</a>
-                    </figcaption>
-                  </figure>
-                </li>
-
-                <li class = "wp4 delay-05s">
-                  <figure>
-                    <img src="img/projects/pointstreak.png" alt="img03">
-                    <figcaption>
-                      <h3>Pointstreak</h3>
-                      <span>Digital Content & Strategy</span>
-                      <a href="http://bit.ly/1KGTHVF">Details</a>
-                    </figcaption>
-                  </figure>
-                </li>
-                <li class = "wp4">
-                  <figure>
-                    <img src="img/projects/nullstudios.png" alt="img06">
-                    <figcaption>
-                      <h3>Null Studios</h3>
-                      <span>Freelance Web Dev</span>
-                      <a href="http://nullstudios.co">Details</a>
-                    </figcaption>
-                  </figure>
-                </li>
-              </ul>
-            <!-- /container -->
-
-<!--
             <div class="row">
               <div class="col-md-4 wp4">
                 <div class="overlay-effect effects clearfix">
@@ -235,8 +163,6 @@ if($_POST["message"]) {
                 </div>
               </div>
             </div>
--->
-<!--
             <div class="row">
               <div class="col-md-4 wp4 delay-1s">
                 <div class="overlay-effect effects clearfix">
@@ -266,18 +192,15 @@ if($_POST["message"]) {
               <div class="col-md-4 wp4">
                 <div class="overlay-effect effects clearfix">
                   <div class="img">
-                    <a href="http://nullstudios.co">
+                    <a href="http://nullstudios.me">
                       <img class="dimensions" src="img/projects/nullstudios.png">
                     </a>
-
                     <h4>Null Studios Development</h4>
                     <p>Currently providing digital consulting and web development services to clients</p>
-
                   </div>
                 </div>
               </div>
             </div>
--->
           </div>
         </div>
       </section>
@@ -286,7 +209,7 @@ if($_POST["message"]) {
         <div class="container">
           <div class="row">
             <div class="col-md-12 text-center">
-              <h1 class = "arrow-white">Technical Skills</h1>
+              <h1>Technical Skills <i class="fa fa-pencil"></i></h1>
             </div>
 
             <div class="col-lg-4">
@@ -338,17 +261,187 @@ if($_POST["message"]) {
         </div>
       </section>
 
-      <section class="resume text-center section-padding" id="resume">
-        <div class="container">
+      <div class="center experience" id="experience">
+
+        <h1 class="arrow">
+          <FONT SIZE="7" COLOR="242830">Experience</FONT>
+        </h1>
+        <br>
+        <br>
+        <div class="col-md-6">
+          <h2 style="text-align: center">
+            <FONT SIZE="5" COLOR="242830">Select Work Experience</FONT>
+          </h2>
           <div class="row">
-            <div class="col-lg-12 wp1">
-              <a href="resume.html" class="btn btn-green">View Online Resume</a>
+            <div class="col-md-3 img-inline">
+              <img src="img/logos/coastline.png" class="filter">
+            </div>
+            <div class="col-md-8" style="text-align: left;">
+              <h3>Coastline Market Inc.</h3>
+              <h4>Co-Founder
+                <br>
+                <FONT SIZE="2">May 2015 to Present</FONT>
+              </h4>
+              <p>
+                <FONT COLOR="000000" SIZE="2">Coastline is a B2C e-commerce platform and inventory management solution that enables consumers to access fresh, ethically sourced seafood. By offering streamlined marketing services coupled with robust inventory tracking across the supply
+                  chain, Coastline enables Community Supported Fisheries (CSFs) to maximize their digital reach, while effectively monitoring the state, location, and the progress of their inventory throughout multiple intermediaries. </FONT>
+              </p>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-md-3 img-inline">
+              <br>
+              <img src="img/logos/shell.png" class="filter">
+            </div>
+            <div class="col-md-8" style="text-align: left;">
+              <h3>Royal Dutch Shell</h3>
+              <h4>IT Business Analyst (Co-op), Production DV
+                <br>
+                <FONT SIZE="2">May 2015 to Present</FONT>
+              </h4>
+              <p>
+                <FONT COLOR="000000" SIZE="2">Currently on an 8 month co-op term in Calgary. Working on various multi-platform projects across the Albian Oil Sands, Scotford Refinery/Upgrader, Houston, Bangalore, Aberdeen, and Calgary. Currently working on project managing SharePoint
+                  workflow implementations, programming in VBA, wireframe process mapping, and more.
+                </FONT>
+              </p>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-md-3 img-inline">
+
+              <img src="img/logos/nullstudios.png" class="filter">
+            </div>
+            <div class="col-md-8" style="text-align: left;">
+              <h3>Null Studios</h3>
+              <h4>
+                <FONT COLOR="000000">Founder & Web Developer
+                  <br>
+                  <FONT SIZE="2">March 2015 to Present</FONT>
+                </FONT>
+              </h4>
+              <p>
+                <FONT COLOR="000000" SIZE="2">The idea of Null Studios was conceived in 2014, with a mission of providing students with real development experience, while also providing local non-profits and small-scale organizations to get complementary consulting and web development
+                  services.
+              </p>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-md-3 img-inline">
+              <img src="img/logos/pointstreak.png" class="filter">
+            </div>
+            <div class="col-md-8" style="text-align: left;">
+              <h3>Pointstreak Sports Technologies Inc.</h3>
+              <h4>Marketing & Project Management Intern
+                <br>
+                <FONT SIZE="2">May 2014 to August 2014</FONT>
+              </h4>
+              <p>
+                <FONT COLOR="000000" SIZE="2">My experience at Pointstreak has definitely one of the highlights of my internship career thus far. Working in a cross-functional, start-up environment, I was tasked with a lot of autonomy from the get go. I gained exposure to the project
+                  management lifecycle, various IT Tools, while I had the chance to manage and create various advertisements for our digital content strategy.</FONT>
+              </p>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-md-3 img-inline">
+              <img src="img/logos/coursehero.png" class="filter">
+            </div>
+            <div class="col-md-8" style="text-align: left;">
+              <h3>Course Hero Inc.</h3>
+              <h4>Business Development Intern
+                <br>
+                <FONT SIZE="2">January 2014 to April 2014</FONT>
+              </h4>
+
+              <p>
+                <FONT COLOR="000000" SIZE="2">I managed my own student team, over four different post-secondary institutions. Through my efforts, I was able to donate over 130 books to African children, while surpassing my internship goals by over 140%.</FONT>
+              </p>
             </div>
           </div>
         </div>
+        <section>
+          <div class="col-md-6">
+            <h2 style="text-align: center">
+              <FONT SIZE="5" COLOR="242830">Academic & University Experience</FONT>
+            </h2>
+
+            <div class="row">
+              <div class="col-md-3 img-inline">
+                <br>
+                <img src="img/logos/sauder.png" class="filter">
+              </div>
+              <div class="col-md-8" style="text-align: left;">
+                <h3>Co-op Student Association of Sauder</h3>
+                <h4>VP Information Technology
+                  <br>
+                  <FONT SIZE="2">May 2015 to Present</FONT>
+                </h4>
+                <p>
+                  <FONT COLOR="000000" SIZE="2">As VP Technology, I'm currently spearheading all technology based initiatives, while maintaining existing IT assets and media content. I'm also responsible for fully designing and developing an organizational website & file database.</FONT>
+                  <br>
+
+                </p>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-md-3 img-inline">
+                <img src="img/logos/meinc.png" class="filter">
+              </div>
+              <div class="col-md-8" style="text-align: left;">
+                <h3>Me Inc. Conference</h3>
+                <h4>Director of Corporate Relations
+                  <br>
+                  <FONT SIZE="2">April 2014 to April 2015</FONT>
+                </h4>
+                <p>
+                  <FONT COLOR="000000" SIZE="2">I generated over $25,000 (130%+ year over year increase) in financial and in-kind sponsorships from major firms, such as First West Credit Union, CPA, KPMG, PwC, EY, Deloitte, Target, Auto West Group, and the Vancouver Whitecaps. Our
+                    conference was featured on VancityBuzz, and won Sauder's 2015 Conference of the Year. </FONT>
+                </p>
+                <h4>Marketing Aviator
+                  <br>
+                  <FONT SIZE="2">April 2014 to April 2015</FONT>
+                </h4>
+                <p>
+                  <FONT COLOR="000000" SIZE="2">I Successfully helped implement a digital marketing strategy that spanned across video, social media, print, and guerilla marketing. As a team, we sold out every event we hosted; a first in Me Inc.'s 10 year history.</FONT>
+                  <br>
+
+                </p>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-md-3 img-inline">
+                <br>
+
+                <img src="img/logos/ubc-logo-white.png" class="filter">
+              </div>
+              <div class="col-md-8" style="text-align: left;">
+                <h3>University of British Columbia</h3>
+                <h4>Combined Major in Business & Computer Science
+                  <br>
+                  <FONT SIZE="2">September 2013 to Present</FONT>
+                </h4>
+
+                <p>
+                  <FONT COLOR="000000" SIZE="2">
+                    Honours & Distinctions while in University:
+                    <br> • UBC Dean's Honour Roll Student (3.62/4.00 GPA)
+                    <br> • UBC Chancellor's Scholar
+                    <br> • Early Acceptance (1 Year Earlier) into Sauder's Co-op Program
+                    <br> • Hanin Investment Group Scholarship
+                    <br> • Deloitte National Leadership Conference 2015
+                    <br>
+                  </FONT>
+                </p>
+              </div>
+            </div>
+          </div>
+      </div>
       </section>
-
-
 
       <section class="dark-bg text-center section-padding contact-wrap" id="contact">
         <a href="#navigation" class="up-arrow-btn"><i class="fa fa-angle-up"></i></a>
@@ -361,33 +454,33 @@ if($_POST["message"]) {
 
           <div class="row contact-details">
             <div class="col-md-3">
-              <h2><i class="fa fa-github-alt"></i>
+              <h2><a href="https://github.com/jhylee"><i class="fa fa-github-alt"></a></i>
                 <span>
-                GitHub
+                  <FONT COLOR="353535">GitHub</FONT>
                 </span>
               </h2>
               <p>github.com/jhylee</p>
             </div>
             <div class="col-md-3">
-              <h2><i class="fa fa-instagram"></i>
+              <h2><a href="https://instagram.com/jhylee95"><i class="fa fa-instagram"></a></i>
                 <span>
-                  Instagram
+                  <FONT COLOR="353535">Instagram</FONT>
                 </span>
               </h2>
               <p>@jhylee95</p>
             </div>
             <div class="col-md-3">
-              <h2><i class="fa fa-envelope-o"></i>
+              <h2><a href="mailto:joseph@jhylee.com"><i class="fa fa-envelope-o"></a></i>
                 <span>
-                  Email
+                  <FONT COLOR="353535">Email</FONT>
                 </span>
               </h2>
               <p>joseph@jhylee.com</p>
             </div>
             <div class="col-md-3">
-              <h2><i class="fa fa-linkedin-square"></i>
+              <h2><a href="https://ca.linkedin.com/in/jhylee"><i class="fa fa-linkedin-square"></a></i>
                 <span>
-                  LinkedIn
+                  <FONT COLOR="353535">LinkedIn</FONT>
                 </span>
               </h2>
               <p>linkedin/in/jhylee</p>
@@ -395,7 +488,6 @@ if($_POST["message"]) {
           </div>
         </div>
       </section>
-
       <footer>
         <div class="container">
           <div class="row">
@@ -404,13 +496,12 @@ if($_POST["message"]) {
                 <span><i class="fa fa-heart"></i></span> in Calgary, Canada</p>
             </div>
             <div class="col-md-6 credit">
+
               <p>Designed and developed by Joseph Lee. All rights Reserved.</p>
             </div>
           </div>
         </div>
       </footer>
-
-
 
       <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
@@ -420,8 +511,6 @@ if($_POST["message"]) {
       <script src="js/scripts.js"></script>
       <script src="js/jquery.flexslider.js"></script>
       <script src="js/modernizr.js"></script>
-      <script src="js/pageScroll.js"></script>
-
 
       <script>
         (function(i, s, o, g, r, a, m) {
