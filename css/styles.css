@@ -821,7 +821,7 @@ a.close-overlay {
 }
 .portrait {
   max-height: 40%;
-  max-width: 100%; /*Issue on Mobile & Chrome - fix*/
+  max-width: 60%; /*Issue on Mobile & Chrome - fix*/
   border-radius: 2000px;
   z-index: 1000;
   box-shadow: rgba(0, 0, 0, 0.3) 0 16px 16px 0;
