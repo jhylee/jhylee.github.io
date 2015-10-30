@@ -116,6 +116,7 @@ h4 {
   color: #000000;
 }
 h5 {
+  color: #fff;
   font-size: 0.83em;
   margin: 1.67em 0;
 }
@@ -269,7 +270,7 @@ a {
   transition: all 0.5s;
 }
 a:hover, a:focus {
-  color: #004D40;
+  color: #006064;
   text-decoration: none;
 }
 p {
@@ -281,7 +282,6 @@ p {
 h2 {
   font-size: 15px;
   color: #353535;
-  text-transform: uppercase;
   font-weight: bold;
 }
 h2::after {
@@ -522,7 +522,6 @@ TECHNICAL SKILLS
 .skills h1 {
   color: #fff;
   font-size: 40px;
-  text-transform: uppercase;
   letter-spacing: 5px;
 }
 .skills h1 span {
@@ -533,14 +532,12 @@ TECHNICAL SKILLS
 .skills h3 {
   color: #fff;
   font-size: 20px;
-  text-transform: uppercase;
-  letter-spacing: 5px;
+  letter-spacing: 2px;
 }
 .skills h4 {
   color: #fff;
   font-size: 15px;
   font-style: normal;
-  text-transform: lowercase;
   letter-spacing: 3px;
 }
 .skills hr {
@@ -596,7 +593,6 @@ ABOUT ME
 }
 h1.arrow {
   font-size: 25px;
-  text-transform: uppercase;
   color: #353535;
   letter-spacing: 1px;
   background: url('../img/h1-bg.png') no-repeat center bottom;
@@ -606,7 +602,6 @@ h1.arrow {
 }
 h1.arrow-white {
   font-size: 25px;
-  text-transform: uppercase;
   color: #fff;
   letter-spacing: 1px;
   background: url('../img/h1-bg2.png') no-repeat center bottom;
@@ -626,6 +621,11 @@ CONTACT US
   line-height: 20px;
   text-align: center;
 }
+.up-arrow-btn:hover {
+  color: #006064;
+  font-size: 20px;
+}
+
 .contact-details {
   margin: 30px 0;
   margin-bottom: 20px;
@@ -707,7 +707,7 @@ PORTFOLIO SKILLS
 }
 
 /* ==========================================================================
-PORTFOLIO EXPERIENCE
+MY Projects
 ========================================================================== */
 
 #experience {
