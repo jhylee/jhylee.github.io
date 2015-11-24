@@ -410,54 +410,6 @@ NAVIGATION BAR
   border-color: #607D8B;
 }
 
-/*========DUPLICATE FOR RESUME SECTION========*/
-.navigation2 {
-  background-color: #B71C1C;
-  position: fixed;
-  width: 100%;
-  padding-bottom: 10px;
-  padding-top: 0px;
-  z-index: 1000;
-  box-shadow: rgba(0, 0, 0, 0.1) 0 8px 8px 0;
-  -webkit-box-shadow: rgba(0, 0, 0, 0.1) 0 8px 8px 0;
-  -moz-box-shadow: rgba(0, 0, 0, 0.1) 0 8px 8px 0;
-}
-
-.menu2 {
-  font-size: 15px;
-  float: right;
-  font-weight: 100;
-  letter-spacing: 1px;
-  font-weight: bold;
-}
-
-.nav-tabs2 {
-  border-bottom: 0;
-}
-.nav-tabs2 > li {
-  color: #fff;
-  float: left;
-  margin-bottom: 0;
-  border-radius: 5px;
-}
-.nav-tabs2 > li > a {
-  border-radius: 5px;
-  color: #fff;
-  padding: 15px;
-  text-transform: uppercase;
-  border-color: #E57373;
-}
-.nav-tabs2 > li > a:hover {
-  color: #B71C1C;
-  background-color: #E57373;
-  transition: all 0.5s ease-in-out;
-  -moz-transition: all 0.5s ease-in-out;
-  -webkit-transition: all 0.5s ease-in-out;
-  -o-transition: all 0.5s ease-in-out;
-  border-radius: 5px;
-  border-color: #607D8B;
-}
-
 
 /* ==========================================================================
 PAGE HEADER
@@ -714,6 +666,8 @@ MY Projects
 #experience {
   padding-top: 75px;
   padding-bottom: 75px;
+  padding-left: 5px;
+  padding-right: 5px;
   text-align: center;
 }
 .experience {
@@ -721,7 +675,6 @@ MY Projects
   padding-right: 30px;
   background: #e6e3e3;
   background-color: #e6e3e3;
-  opacity: 0.8;
   color: #242830;
   display: inline-block;
   text-align: center;
@@ -843,11 +796,6 @@ a.close-overlay {
 }
 
 /* ==========================================================================
-PORTFOLIO & MODALS
-========================================================================== */
-
-
-/* ==========================================================================
 FlexSlider Custom CSS
 ========================================================================== */
 
@@ -945,12 +893,166 @@ Waypoints
   -webkit-transition: all 0.5s ease-in-out;
   -o-transition: all 0.5s ease-in-out;
 }
-
-
-
 .pdfButton {
   overflow-x: hidden;
   padding-top: 40px;
   padding-bottom: 40px;
   background: #e6e3e3;
+}
+
+/* ==========================================================================
+MATERIAL CARDS
+========================================================================== */
+
+
+/* End defaults*/
+
+.card {
+  display: inline-block;
+  vertical-align: top;
+  width: 350px;
+  position: relative;
+  overflow: hidden;
+  margin: 10px;
+  background: #00838F;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 8px 8px 0;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.1) 0 8px 8px 0;
+  -moz-box-shadow: rgba(0, 0, 0, 0.1) 0 8px 8px 0;
+  color: #272727;
+  border-radius: 5px;
+  margin: 20px;
+
+}
+
+
+.card p {
+  margin: 0;
+}
+
+.card .action {
+  border-top: 1px solid rgba(160, 160, 160, 0.3);
+  padding: 20px;
+}
+.card a {
+  color: #fff;
+  text-decoration: none;
+}
+.card a:hover {
+  color: #CFD8DC;
+  text-decoration: none;
+  transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+}
+
+.card .image {
+  position: relative;
+  opacity: 0.9;
+  height: 200px;
+  overflow: hidden;
+}
+.card .image img {
+  border-radius: 2px 2px 0 0;
+  position: relative;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+
+.cardContainer {
+  overflow-x: hidden;
+  padding-left: 75px;
+  padding-right: 75px;
+}
+
+.alignleft {
+  float: left;
+  margin-bottom: 20px;
+  font-weight: 700;
+  color: #fff;
+  text-transform: lowercase;
+}
+.alignright {
+  float: right;
+  margin-bottom: 20px;
+  font-weight: 700;
+  color: #fff;
+  text-transform: lowercase;
+}
+
+iframe {
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 8px 8px 0;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.1) 0 8px 8px 0;
+  -moz-box-shadow: rgba(0, 0, 0, 0.1) 0 8px 8px 0;
+  max-width: 100%;
+}
+
+
+span {
+  color: #000;
+}
+
+img.modalImg {
+  border-radius: 5px;
+  max-width: 100%;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 8px 8px 0;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.1) 0 8px 8px 0;
+  -moz-box-shadow: rgba(0, 0, 0, 0.1) 0 8px 8px 0;
+}
+
+div.modal-content{
+  background-color: #546E7A;
+  overflow-x: hidden;
+}
+h1.text-center {
+  font-weight: 600;
+  color: #fff;
+}
+
+a {
+  color: #FF5722;
+}
+
+a:hover{
+  color: #BF360C;
+  transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+}
+
+.btn-modal {
+  padding: 10px;
+}
+
+.modal-header, .modal-footer {
+  border-color: #546E7A;
+  overflow-x: hidden;
+}
+
+hr.modalHr {
+  width: 60%;
+  border-width: 4px;
+  border-color: #455A64;
+}
+
+p.modalP {
+  color: #fff;
+}
+
+i.fa.fa-connectdevelop, i.fa.fa-github-alt, i.fa.fa-envelope-o,i.fa.fa-linkedin-square{
+  color: #607D8B;
+}
+
+i.fa.fa-connectdevelop:hover, i.fa.fa-github-alt:hover, i.fa.fa-envelope-o:hover,i.fa.fa-linkedin-square:hover{
+  transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  color: #009688;
 }
