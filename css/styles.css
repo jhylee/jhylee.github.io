@@ -921,7 +921,12 @@ MATERIAL CARDS
   color: #272727;
   border-radius: 5px;
   margin: 20px;
+}
 
+@media (max-width:960px) {
+  .card {
+    width: 320px;
+  }
 }
 
 
@@ -938,7 +943,7 @@ MATERIAL CARDS
   text-decoration: none;
 }
 .card a:hover {
-  color: #CFD8DC;
+  color: #64FFDA;
   text-decoration: none;
   transition: all 0.5s ease-in-out;
   -moz-transition: all 0.5s ease-in-out;
