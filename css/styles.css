@@ -923,7 +923,7 @@ MATERIAL CARDS
   margin: 20px;
 }
 
-@media (max-width:960px) {
+@media handheld, screen and (max-width: 995px) {
   .card {
     width: 300px;
   }
