@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+ <title>Poole</title>
+ <link href="/atom.xml" rel="self"/>
+ <link href="/"/>
+ <updated>2015-11-29T22:33:37-07:00</updated>
+ <id></id>
+ <author>
+   <name>Mark Otto</name>
+   <email>markdotto@gmail.com</email>
+ </author>
+
+ 
+ <entry>
+   <title>Facebook Global Hackathon Finals</title>
+   <link href="/2015/11/20/Facebook/"/>
+   <updated>2015-11-20T00:00:00-07:00</updated>
+   <id>/2015/11/20/Facebook</id>
+   <content type="html">&lt;p&gt;The Facebook Global Hackathon Finals was an &lt;b&gt;lifechanging&lt;/b&gt; experience. I’ve never been surrounded with such bright, motivated individuals - most belonging to the likes of MIT, Yale and Stanford.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/facebook1.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;From the very first day in San Fransisco, we were treated like royalty - I’m not surprised why Facebook is a perennial contender for the best place to live in the world.&lt;/p&gt;
+
+&lt;p&gt;Once touching down in San Fransisco, we were each given a Facebook Uber Account, which we could use to get around town. Using this code, I Ubered 40+ minutes to our hotel, the Hotel Aloft Silicon Valley.&lt;/p&gt;
+
+&lt;p&gt;At the hotel, we were each given huge individual rooms, which comprised of two king beds, a couch/office area, a kitchen, and a nice jacuzzi style bathroom. Living true to its Silicon Valley name, the hotel offered room service operated by a robot (!!!).&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/facebook6.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;After settling in, the 70 finalists participated in a mix and mingle, where I personally had a chance to connect with finalists from across the world, including Spain, Poland, Singapore, and Russia.&lt;/p&gt;
+
+&lt;p&gt;The next day, we were treated to a tour of Facebook’s Menlo Park campus. After walking through the campus, I can confirm that the rumours are correct. Facebook’s campus is host to the finest foods (from Korean, Japanese, Jamaican, American - you can find whatever food you desire) and the best perks (arcades, ice cream shops, laundry, gym, art shop), which are all complimentary services for employees. I personally had a chance to try the udon bar and the gelato joint, both of which were absolutely fantastic.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/facebook3.jpg&quot; /&gt;
+&lt;img src=&quot;/images/facebook4.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;After our tour, we began the hacking. We were the only team from a Canadian University, and we planned an ambitious project for a 24 hour hackathon. Our team built a social radio application that strives to eliminate the issue of distracted driving. In summary, the application “reads” your latest Facebook updates to you in real time, while allowing you to interact (like/comment) with the updates using just your voice. This extends to pictures updates, which our intelligent program analyzes to describe what is happening in the photo posted.&lt;/p&gt;
+
+&lt;p&gt;Although we didn’t place in the top three teams, I snagged a Phantom 3 Standard drone through a raffle. I have to say that I’m pretty stoked to have luck on my side in my three hackathons so far!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/facebook7.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;After the hackathon, I had a free hours on my hands so I decided to head to downtown San Fransisco. See below for some highlights from my downtown excursion!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/facebook8.jpg&quot; /&gt;
+&lt;img src=&quot;/images/facebook9.jpg&quot; /&gt;
+&lt;img src=&quot;/images/facebook10.jpg&quot; /&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>HackingEDU Hackathon</title>
+   <link href="/2015/10/26/HackingEDU/"/>
+   <updated>2015-10-26T00:00:00-06:00</updated>
+   <id>/2015/10/26/HackingEDU</id>
+   <content type="html">&lt;p&gt;&lt;img src=&quot;/images/edu2.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Fresh off my hackathon victory at Dubhacks 2015, I flew to HackingEDU in San Mateo, California, an event which was set to host 1500+ hackers from across the world.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/edu4.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Once again, I was drawn to the event due to its substantial nature (both in terms of competitors, prizes, and travel reimbursements). Upon arriving at the venue (San Mateo Event Center - which was a random area south of San Fransisco), my speculations were correct. In addition to the numerous sponsors, I was able to get mentorship and listen to talks from some of the greatest minds in tech:&lt;/p&gt;
+
+&lt;li&gt;
+Sal Khan - Founder of Khan Academy
+&lt;/li&gt;
+&lt;li&gt;
+Sam Altman - President at Y-Combinator
+&lt;/li&gt;
+&lt;li&gt;
+Andrew Sutherland - Founder at Quizlet
+&lt;/li&gt;
+&lt;li&gt;
+Jack Herrick - Founder at WikiHow
+&lt;/li&gt;
+&lt;li&gt;
+Tony Conrad - Founder of About.me
+&lt;/li&gt;
+&lt;li&gt;
+Mike Osie - CIO at Chegg
+&lt;/li&gt;
+&lt;li&gt;
+Laurie Voss - Founder at NPM
+&lt;/li&gt;
+&lt;li&gt;
+Guillermo Rauch - Founder at Socket.io
+&lt;/li&gt;
+&lt;li&gt;
+Randy Turbush - Founder at Apache
+&lt;/li&gt;
+
+&lt;p&gt;… and many many more.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/edu3.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;As for the hackathon itself, I teamed up with Bryan from Berkley, who I met at the event, and a Clement from Waterloo. Although Bryan had never coded before, we were able to work effectively within a team to create a product that satisfied a growing pain-point in the education industry. To learn more about our product, please visit this &lt;a href=&quot;http://devpost.com/software/query-sctlva&quot;&gt;link&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/edu1.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;In the end, we were able to pitch our product to some prominent industry professionals and make a positive impression. So much so that we WON the largest cash prize at the event - the Clusterpoint Award. This award capped off an amazing experience - one full of great people, great food, and great experiences. In addition to the event, I had an opportunity to tour Palo Alto and the Stanford Campus. I would recommend the event to anyone planning on applying to &lt;a href=&quot;http://hackingedu.co&quot;&gt;HackingEDU 2016&lt;/a&gt;!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/stanford2.jpg&quot; /&gt;
+&lt;img src=&quot;/images/stanford1.jpg&quot; /&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Dubhacks Seattle</title>
+   <link href="/2015/10/19/Dubhacks/"/>
+   <updated>2015-10-19T00:00:00-06:00</updated>
+   <id>/2015/10/19/Dubhacks</id>
+   <content type="html">&lt;p&gt;Dubhacks nigga&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Deloitte National Leadership conference</title>
+   <link href="/2015/08/26/DNLC/"/>
+   <updated>2015-08-26T00:00:00-06:00</updated>
+   <id>/2015/08/26/DNLC</id>
+   <content type="html">&lt;p&gt;&lt;img src=&quot;/images/toronto1.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Hey everyone - thanks for visiting my blog. The first few blogs will be really shitty since I’m writing all &lt;b&gt;seven&lt;/b&gt; of them on the same day, in a span of about an hour. It’s mostly serving as a personal memory bank so that I remember all of the extraordinary experiences that I had this summer/fall!&lt;/p&gt;
+
+&lt;p&gt;DNLC 2015 - I don’t even know where to begin…&lt;/p&gt;
+
+&lt;p&gt;For me, DNLC started many months before the conference itself. Working at Shell in Calgary, I had an opportunity to partake in all of the pre-DNLC Deloitte socials at the Calgary office, where I met so many great friends. The Calgary crew was definitely the cream of the crop - I’ve never met such fun, yet hardworking and ambitious group of individuals. It was a blast spending time with them, and I look forward to hanging with them even more in the future!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/toronto2.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;For the conference itself, the Calgary crew arrived 6+ hours late due to a flight issue (we took off and had to fly back to Calgary after being in the air for ~1 hour). Once we got there, Steve, Taylor, Sam and I immediately decided to explore the Toronto night scene. After an exhausting excursion around town, we arrived back at our hotel at around 4am exhausted, yet excited to start early the next morning.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/toronto3.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The first day at DNLC started with an amazing day event, where each team (6-8 ppl) had to run around downtown Toronto and complete tasks, solve puzzles, and win challenges. It was a lot of fun, and an awesome icebreaker to get to know your team.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/toronto5.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Each night, we had &lt;b&gt;massive&lt;/b&gt; parties, all led by Deloitte professionals. It was beyond fun - I’ll leave out a lot of details so I don’t get in trouble ;-).&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/toronto4.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;However, not everything about the 3 day conference was about fun and games. We did a lot of networking, professional team building events, and personal growth activities. All of this culminated in a case-study presentation on the last day, where each team had to analyze the client’s product portfolio, and create a viable strategy to pursue a profitable opportunity for growth. This presentation was a verbal/powerpoint presentation, and was presented on stage in front of a combination of industry professionals, Deloitte partners/managers, and other DNLC candidates. Following the presentation, ideas were critiqued, and challenging questions were posed by industry leaders. As one of the lead presenters from my team, I can personally say that this was one of the most daunting things I’ve ever done.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/toronto6.jpg&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;All in all, DNLC was amazing in terms of the connections I fostered, the professional growth I experienced, and the fun I had. Another plus was that I was able to nab a free return flight to Vancouver, where I had a chance to touch base with some friends who I hadn’t seen in 4+ months!&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/toronto7.jpg&quot; /&gt;
+&lt;img src=&quot;/images/toronto8.jpg&quot; /&gt;
+&lt;img src=&quot;/images/toronto9.jpg&quot; /&gt;&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Canoeing the Bow River</title>
+   <link href="/2015/08/11/Banff/"/>
+   <updated>2015-08-11T00:00:00-06:00</updated>
+   <id>/2015/08/11/Banff</id>
+   <content type="html">&lt;p&gt;Dubhacks nigga&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Edmonton Trip</title>
+   <link href="/2015/07/11/Edmonton/"/>
+   <updated>2015-07-11T00:00:00-06:00</updated>
+   <id>/2015/07/11/Edmonton</id>
+   <content type="html">&lt;p&gt;Dubhacks nigga&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Fairmont Intern Trip</title>
+   <link href="/2015/06/11/Fairmont-Intern-Trip/"/>
+   <updated>2015-06-11T00:00:00-06:00</updated>
+   <id>/2015/06/11/Fairmont Intern Trip</id>
+   <content type="html">&lt;p&gt;Dubhacks nigga&lt;/p&gt;
+</content>
+ </entry>
+ 
+
+</feed>
