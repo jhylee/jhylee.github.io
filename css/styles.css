@@ -1061,3 +1061,41 @@ i.fa.fa-connectdevelop:hover, i.fa.fa-github-alt:hover, i.fa.fa-envelope-o:hover
   -o-transition: all 0.5s ease-in-out;
   color: #009688;
 }
+
+
+/* ==========================================================================
+Preloader
+========================================================================== */
+
+/* Preloader */
+
+#preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #E0F2F1;
+  /* change if the mask should have another color then white */
+  z-index: 99;
+  /* makes sure it stays on top */
+}
+#coffee {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  left: 50%;
+  /* centers the loading animation horizontally one the screen */
+  top: 50%;
+  /* centers the loading animation vertically one the screen */
+  background-image: url(../img/coffee.gif);
+  /* path to your loading animation */
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: -100px 0 0 -100px;
+  /* is width and height divided by two */
+}
+
+
+
+

@@ -25,6 +25,11 @@
     <![endif]-->
 </head>
 
+
+<div id="preloader">
+  <div id="coffee">&nbsp;</div>
+</div>
+
 <body>
   <?php include_once("analyticstracking.php") ?>
     <header>
@@ -918,6 +923,19 @@
       ga('send', 'pageview');
     </script>
 
+    <!-- Preloader -->
+    <script type="text/javascript">
+      //<![CDATA[
+      $(window).load(function() { // makes sure the whole site is loaded
+          $('#coffee').fadeOut(); // will first fade out the loading animation
+          $('#preloader').delay(300).fadeOut('slow'); // will fade out the white DIV that covers the website.
+          $('body').delay(400).css({
+            'overflow': 'visible'
+          });
+        })
+    </script>
+
 </body>
+
 
 </html>
