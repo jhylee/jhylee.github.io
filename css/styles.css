@@ -620,17 +620,26 @@ footer {
 footer p {
   color: #fff;
 }
-.legal {
+.foot-text {
   text-align: left;
 }
-.credit {
+.foot-text2 {
   text-align: right;
 }
-.legal p {
+.foot-text p {
   color: #fff;
 }
-.legal span {
+.foot-text span {
   color: #BF360C;
+}
+
+@media (max-width: 1140px) {
+.foot-text {
+  text-align: center;
+}
+.foot-text2 {
+  text-align: center;
+}
 }
 
 /* ==========================================================================
@@ -1095,6 +1104,7 @@ Preloader
   margin: -100px 0 0 -100px;
   /* is width and height divided by two */
 }
+
 
 
 
