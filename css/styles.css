@@ -327,6 +327,15 @@ h2::after {
   padding-top: 20px;
 }
 
+h4.subHeader {
+  color: #fff;
+  letter-spacing: 1px;
+}
+
+p.aboutMe {
+  color: #37474F;
+}
+
 /* ==========================================================================
 Preloader
 ========================================================================== */
@@ -801,8 +810,12 @@ a.close-overlay {
 }
 
 .resume {
-  background-color: #009688;
+  background-color: #90A4AE;
+  padding-top: 50px;
+  padding-bottom: 52px;
 }
+
+
 
 /* ==========================================================================
 FlexSlider Custom CSS
@@ -1055,6 +1068,13 @@ hr.modalHr {
   border-color: #455A64;
 }
 
+hr.short {
+  width: 100px;
+  padding-bottom: 20px;
+  border-width: 4px;
+  border-color: #455A64;
+}
+
 p.modalP {
   color: #fff;
 }
@@ -1104,8 +1124,3 @@ Preloader
   margin: -100px 0 0 -100px;
   /* is width and height divided by two */
 }
-
-
-
-
-
