@@ -1032,6 +1032,11 @@ img.modalImg {
   -moz-box-shadow: rgba(0, 0, 0, 0.1) 0 8px 8px 0;
 }
 
+
+img.modalImg-noShadow {
+  max-width: 100%;
+}
+
 div.modal-content{
   background-color: #546E7A;
   overflow-x: hidden;
