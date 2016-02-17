@@ -18,10 +18,11 @@
   <script src="js/modernizr.custom.js"></script>
 
 </head>
+<!--
 <div id="preloader">
   <div id="coffee">&nbsp;</div>
 </div>
-
+-->
 <body>
   <header>
     <!--TOOK navbar-default OUT FROM B/T NAVBAR & NAVBAR-STATIC-TOP-->
@@ -545,7 +546,7 @@
                 </h1>
                 <hr class="modalHr">
                 <div>
-                  <img src="img/projects/modals/macbook-pro.png" class="modalImg-noShadow"></img>
+                  <div class="text-center"><img src="img/projects/modals/macbook-pro.png" class="modalImg-noShadow"></img><div>
                   <br>
                   <br>
                   <p class="modalP">
@@ -565,11 +566,17 @@
                   </p>
 
 
+                  <div class="text-center">
+                  <img src="img/projects/modals/inventory_supply.png" class="modalImg"></img>
+
+                  <br>
+                  <br>
                   <img src="img/projects/modals/coastline.png" class="modalImg"></img>
                   <br>
                   <br>
 
-                  <img src="img/projects/modals/inventory_supply.png" class="modalImg"></img>
+                  <img src="img/projects/modals/ecom_pay.png" class="modalImg"></img>
+
                   <br>
                   <br>
 
@@ -578,10 +585,6 @@
                   <br>
 
                   <img src="img/projects/modals/ecom_cart.png" class="modalImg"></img>
-                  <br>
-                  <br>
-
-                  <img src="img/projects/modals/ecom_pay.png" class="modalImg"></img>
 
                 </div>
               </div>
@@ -758,17 +761,17 @@
     ga('send', 'pageview');
   </script>
 
-  <!-- Preloader -->
+  <!-- Preloader
   <script type="text/javascript">
     //<![CDATA[
     $(window).load(function() { // makes sure the whole site is loaded
       $('#coffee').fadeOut(); // will first fade out the loading animation
-      $('#preloader').delay(150).fadeOut('slow'); // will fade out the white DIV that covers the website.
-      $('body').delay(250).css({
+      $('#preloader').delay(100).fadeOut('slow'); // will fade out the white DIV that covers the website.
+      $('body').delay(200).css({
         'overflow': 'visible'
       });
     })
-  </script>
+  </script>-->
 
 </body>
 
