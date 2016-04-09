@@ -990,7 +990,7 @@ MATERIAL CARDS
 .card .image {
   position: relative;
   opacity: 0.9;
-  height: 200px;
+  max-height: 200px;
   overflow: hidden;
 }
 .card .image img {
