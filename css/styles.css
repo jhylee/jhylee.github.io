@@ -294,11 +294,17 @@ h2::after {
 .section-padding {
   padding: 100px 0 100px
 }
+@media only screen and (max-width: 768px) {
+  .section-padding {
+    padding-top: 75px;
+    padding-bottom: 75px;
+  }
+}
 .dark-bg {
   background: #e2e2e2;
   padding-top: 50px;
 }
-.dark-bg h2{
+.dark-bg h2 {
   color: #000;
 }
 .dark-bg i {
@@ -306,7 +312,6 @@ h2::after {
   font-size: 100px;
   padding-top: 50px;
 }
-
 .light-box {
   background-color: rgb(255, 255, 255, 0);
   padding: 15px 0;
@@ -326,12 +331,10 @@ h2::after {
 .inner {
   padding-top: 20px;
 }
-
 h4.subHeader {
   color: #fff;
   letter-spacing: 1px;
 }
-
 p.aboutMe {
   color: #37474F;
 }
@@ -382,7 +385,6 @@ NAVIGATION BAR
   -webkit-box-shadow: rgba(0, 0, 0, 0.1) 0 8px 8px 0;
   -moz-box-shadow: rgba(0, 0, 0, 0.1) 0 8px 8px 0;
 }
-
 .menu {
   font-size: 15px;
   float: right;
@@ -390,7 +392,6 @@ NAVIGATION BAR
   letter-spacing: 1px;
   font-weight: bold;
 }
-
 .nav-tabs {
   border-bottom: 0;
   margin-bottom: 5px;
@@ -399,16 +400,16 @@ NAVIGATION BAR
   color: #fff;
   float: left;
   margin-bottom: 0;
-  border-radius: 3px;
+  border-radius: 2px;
 }
 .nav-tabs > li > a {
-  border-radius: 3px;
+  border-radius: 2px;
   color: #CFD8DC;
   padding: 15px;
   text-transform: uppercase;
   border-color: #607D8B;
 }
-.nav-tabs > li > a:hover {
+.nav-tabs > li > a:hover, .nav-tabs > li > a:active, .nav-tabs > li > a:hover, .nav-tabs > li > a:focus {
   color: #004D40;
   background-color: #00BFA5;
   transition: all 0.5s ease-in-out;
@@ -417,8 +418,8 @@ NAVIGATION BAR
   -o-transition: all 0.5s ease-in-out;
   border-radius: 3px;
   border-color: #607D8B;
+  outline: none;
 }
-
 
 /* ==========================================================================
 PAGE HEADER
@@ -433,6 +434,31 @@ PAGE HEADER
   padding: 150px 0 150px 0;
   height: auto;
   overflow-x: hidden;
+}
+@media only screen and (max-width: 768px) {
+  .header {
+    margin-top: -12px;
+    color: #fff;
+    padding-top: 85px;
+    padding-bottom: 85px;
+  }
+  .navbar-default .navbar-toggle {
+    border: none;
+    margin-top: 15px;
+    color: #fff;
+  }
+  .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:active {
+    background-color: #607D8B;
+    color: #fff;
+  }
+  button.navbar-toggle {
+    color: #fff;
+  }
+  .navbar-toggle a:hover, .navbar-toggle a:focus, .navbar-toggle a:active {
+    border: none;
+    color: #fff;
+    background-color: #607D8B;
+  }
 }
 .header h1 {
   font-size: 70px;
@@ -587,7 +613,6 @@ CONTACT US
   color: #006064;
   font-size: 20px;
 }
-
 .contact-details {
   margin: 30px 0;
   margin-bottom: 20px;
@@ -641,14 +666,13 @@ footer p {
 .foot-text span {
   color: #BF360C;
 }
-
 @media (max-width: 1140px) {
-.foot-text {
-  text-align: center;
-}
-.foot-text2 {
-  text-align: center;
-}
+  .foot-text {
+    text-align: center;
+  }
+  .foot-text2 {
+    text-align: center;
+  }
 }
 
 /* ==========================================================================
@@ -698,7 +722,6 @@ MY Projects
   text-align: center;
   overflow-x: hidden;
 }
-
 .filter {
   -webkit-filter: brightness(0) invert(0);
   opacity: 0.8;
@@ -708,7 +731,7 @@ MY Projects
 .dimensions {
   margin-right: : 10px;
   height: 100%;
-  border-radius: 10px;
+  border-radius: 2px;
 }
 @media only screen and (max-width: 1280px) {
   .dimensions {
@@ -793,7 +816,8 @@ a.close-overlay {
 }
 .portrait {
   max-height: 40%;
-  max-width: 60%; /*Issue on Mobile & Chrome - fix*/
+  max-width: 60%;
+  /*Issue on Mobile & Chrome - fix*/
   border-radius: 2000px;
   z-index: 1000;
   box-shadow: rgba(0, 0, 0, 0.3) 0 16px 16px 0;
@@ -808,14 +832,11 @@ a.close-overlay {
   padding-right: 20px;
   background-color: #78909C;
 }
-
 .resume {
   background-color: #90A4AE;
   padding-top: 50px;
   padding-bottom: 52px;
 }
-
-
 
 /* ==========================================================================
 FlexSlider Custom CSS
@@ -864,7 +885,6 @@ Waypoints
   background: transparent;
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
-
 }
 .btn:hover, .btn:focus {
   color: white;
@@ -899,7 +919,6 @@ Waypoints
   -webkit-transition: all 0.5s ease-in-out;
   -o-transition: all 0.5s ease-in-out;
 }
-
 .btn.btn-orange {
   background: #FF9800;
   font-weight: bold;
@@ -941,21 +960,17 @@ MATERIAL CARDS
   -webkit-box-shadow: rgba(0, 0, 0, 0.1) 0 8px 8px 0;
   -moz-box-shadow: rgba(0, 0, 0, 0.1) 0 8px 8px 0;
   color: #272727;
-  border-radius: 5px;
+  border-radius: 2px;
   margin: 20px;
 }
-
 @media handheld, screen and (max-width: 995px) {
   .card {
     width: 300px;
   }
 }
-
-
 .card p {
   margin: 0;
 }
-
 .card .action {
   border-top: 1px solid rgba(160, 160, 160, 0.3);
   padding: 20px;
@@ -972,7 +987,6 @@ MATERIAL CARDS
   -webkit-transition: all 0.5s ease-in-out;
   -o-transition: all 0.5s ease-in-out;
 }
-
 .card .image {
   position: relative;
   opacity: 0.9;
@@ -988,14 +1002,11 @@ MATERIAL CARDS
   bottom: 0;
   width: 100%;
 }
-
-
 .cardContainer {
   overflow-x: hidden;
   padding-left: 75px;
   padding-right: 75px;
 }
-
 .alignleft {
   float: left;
   margin-bottom: 20px;
@@ -1010,34 +1021,27 @@ MATERIAL CARDS
   color: #fff;
   text-transform: lowercase;
 }
-
 iframe {
-  border-radius: 5px;
+  border-radius: 2px;
   box-shadow: rgba(0, 0, 0, 0.1) 0 8px 8px 0;
   -webkit-box-shadow: rgba(0, 0, 0, 0.1) 0 8px 8px 0;
   -moz-box-shadow: rgba(0, 0, 0, 0.1) 0 8px 8px 0;
   max-width: 100%;
 }
-
-
 span {
   color: #000;
 }
-
 img.modalImg {
-  border-radius: 5px;
+  border-radius: 2px;
   max-width: 100%;
   box-shadow: rgba(0, 0, 0, 0.1) 0 8px 8px 0;
   -webkit-box-shadow: rgba(0, 0, 0, 0.1) 0 8px 8px 0;
   -moz-box-shadow: rgba(0, 0, 0, 0.1) 0 8px 8px 0;
 }
-
-
 img.modalImg-noShadow {
   max-width: 100%;
 }
-
-div.modal-content{
+div.modal-content {
   background-color: #546E7A;
   overflow-x: hidden;
 }
@@ -1045,50 +1049,41 @@ h1.text-center {
   font-weight: 600;
   color: #fff;
 }
-
 a {
   color: #FF5722;
 }
-
-a:hover{
+a:hover {
   color: #BF360C;
   transition: all 0.5s ease-in-out;
   -moz-transition: all 0.5s ease-in-out;
   -webkit-transition: all 0.5s ease-in-out;
   -o-transition: all 0.5s ease-in-out;
 }
-
 .btn-modal {
   padding: 10px;
 }
-
 .modal-header, .modal-footer {
   border-color: #546E7A;
   overflow-x: hidden;
 }
-
 hr.modalHr {
   width: 60%;
   border-width: 4px;
   border-color: #455A64;
 }
-
 hr.short {
   width: 100px;
   padding-bottom: 20px;
   border-width: 4px;
   border-color: #455A64;
 }
-
 p.modalP {
   color: #fff;
 }
-
-i.fa.fa-connectdevelop, i.fa.fa-github-alt, i.fa.fa-envelope-o,i.fa.fa-linkedin-square{
+i.fa.fa-connectdevelop, i.fa.fa-github-alt, i.fa.fa-envelope-o, i.fa.fa-linkedin-square {
   color: #607D8B;
 }
-
-i.fa.fa-connectdevelop:hover, i.fa.fa-github-alt:hover, i.fa.fa-envelope-o:hover,i.fa.fa-linkedin-square:hover{
+i.fa.fa-connectdevelop:hover, i.fa.fa-github-alt:hover, i.fa.fa-envelope-o:hover, i.fa.fa-linkedin-square:hover {
   transition: all 0.5s ease-in-out;
   -moz-transition: all 0.5s ease-in-out;
   -webkit-transition: all 0.5s ease-in-out;
@@ -1096,10 +1091,10 @@ i.fa.fa-connectdevelop:hover, i.fa.fa-github-alt:hover, i.fa.fa-envelope-o:hover
   color: #009688;
 }
 
-
 /* ==========================================================================
 Preloader
 ========================================================================== */
+
 
 /* Preloader */
 
