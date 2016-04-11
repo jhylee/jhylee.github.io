@@ -655,11 +655,9 @@ footer p {
   color: #fff;
 }
 .foot-text {
-  text-align: left;
+  text-align: center;
 }
-.foot-text2 {
-  text-align: right;
-}
+
 .foot-text p {
   color: #fff;
 }
