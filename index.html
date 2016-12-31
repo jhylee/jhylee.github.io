@@ -1,135 +1,404 @@
 <!doctype html>
-<!--
-  Material Design Lite
-  Copyright 2015 Google Inc. All rights reserved.
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="">
+<!--<![endif]-->
 
-  Licensed under the Apache License, Version 2.0 (the "License");
-  you may not use this file except in compliance with the License.
-  You may obtain a copy of the License at
+<head>
 
-      https://www.apache.org/licenses/LICENSE-2.0
+<meta charset="utf-8">
+    <meta name="google-site-verification" content="e6CmMXR8NpHFT46MO5ZtSPdHLMKIaL5j77Ko8nxoQCU" />
+    <!--<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Coastline | Connecting chefs and restaurants with the freshest, most local seafood</title>
+    <meta name="description" content="Coastline Market is a disruptive technology platform designed for the fishing industry.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Coastline Market">
+    <meta property="og:image" content="//coastlinemarket.com/img/fb-background.png" />
+    <meta property="og:title" content="Coastline Market" />
+    <meta property="og:description" content="Coastline Market is a disruptive technology platform designed for the fishing industry. We provide an app-enabled platform to connect chefs and restaurants directly with the freshest, most local seafood direct from the dock."
+    />
+    <meta name="google-site-verification" content="jx-w4FjbkvUrDU_3HkJFAsjXrW_A_MOA4gtdVJ7JlGQ" />
 
-  Unless required by applicable law or agreed to in writing, software
-  distributed under the License is distributed on an "AS IS" BASIS,
-  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-  See the License for the specific language governing permissions and
-  limitations under the License
--->
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="description" content="A front-end template that helps you build fast, modern mobile web apps.">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
-    <title>Joseph Lee | Vancouver Tech Entrepreneur</title>
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <link rel="icon" type="image/ico" href="favicon.ico" />
+    <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16" />
+    <link rel="stylesheet" href="css/normalize.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/jquery.fancybox.css">
+    <link rel="stylesheet" href="css/flexslider.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/queries.css">
+    <link rel="stylesheet" href="css/etline-font.css">
+    <link rel="stylesheet" href="bower_components/animate.css/animate.min.css">
+    <link href='//fonts.googleapis.com/css?family=Lato:400,700,300,300italic' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+    <script src="//maps.google.com/maps/api/js?sensor=false"></script>
+    <script type="text/javascript" src="js/vendor/bioep.js"></script>
 
-    <!-- Add to homescreen for Chrome on Android -->
-    <meta name="mobile-web-app-capable" content="yes">
-    <link rel="icon" sizes="192x192" href="images/android-desktop.png">
+</head>
 
-    <!-- Add to homescreen for Safari on iOS -->
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black">
-    <meta name="apple-mobile-web-app-title" content="Material Design Lite">
-    <link rel="apple-touch-icon-precomposed" href="images/ios-desktop.png">
+<body id="top">
+    <section class="hero">
+        <section class="navigation">
+            <header>
+                <div class="header-content">
+                    <div class="logo">
+                        <a href="#top">
+                            <img class="logo-img" src="https://s3.amazonaws.com/coastline-us/coastline-logo.png" alt="coastline logo">
+                        </a>
+                    </div>
+                    <div class="header-nav">
+                        <nav>
+                            <ul class="primary-nav">
+                                <li><a href="https://blog.coastlinemarket.com/" class="navlink">Blog</a></li>
+                                <li><a href="#partners">PRODUCTS</a></li>
+                                <li><a href="why" class="navlink">WHY COASTLINE</a></li>
+                            </ul>
+                            <ul class="member-actions">
+                                <li><a href="#contact" class="login">Contact</a></li>
+                                <li><a href="#showcase" class="btn-white btn-small">Early Access</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="navicon">
+                        <a class="nav-toggle" href="#">
+                            <span></span>
+                        </a>
+                    </div>
+                </div>
+            </header>
+        </section>
 
-    <!-- Tile icon for Win8 (144x144 + tile color) -->
-    <meta name="msapplication-TileImage" content="images/touch/ms-touch-icon-144x144-precomposed.png">
-    <meta name="msapplication-TileColor" content="#3372DF">
-
-    <link rel="shortcut icon" href="images/favicon.ico">
-
-    <!-- SEO: If your mobile URL is different from the desktop URL, add a canonical link to the desktop page https://developers.google.com/webmasters/smartphone-sites/feature-phones -->
-    <!--
-    <link rel="canonical" href="http://www.example.com/">
-    -->
-
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.grey-orange.min.css">
-    <link href="http://netdna.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
-    <style>
-    #view-source {
-      position: fixed;
-      display: block;
-      right: 0;
-      bottom: 0;
-      margin-right: 40px;
-      margin-bottom: 40px;
-      z-index: 900;
-    }
-    </style>
-  </head>
-  <body>
-    <div class="demo-blog mdl-layout mdl-js-layout has-drawer is-upgraded">
-      <nav class="navbar mdl-shadow--4dp">
-        <h5 class="nav-header">Joseph Y. Lee</h5>
-        <div class="nav-image mdl-shadow--4dp"></div>
-      </nav>
-      <main class="mdl-layout__content">
-        <div class="demo-blog__posts mdl-grid">
-          <div class="mdl-card header mdl-cell mdl-cell--8-col mdl-shadow--4dp">
-            <div class="mdl-card__media media-padding mdl-color-text--grey-50">
-              <h2>Joseph Lee</h2>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-10 col-md-offset-1">
+                    <div class="hero-content text-center">
+                        <h1 class="typed">
+                     <div class="element"></div>happens on Coastline.</h1>
+                        <h2 class="desktop-hidden">Fresh fish from source to sale.</h2>
+                        <p class="intro"> Connecting restaurants and retail buyers with fresh, local seafood direct from the source.</p>
+                        <a href="javascript:(0)" data-toggle="modal" data-target="#videoModal" class="btn btn-fill btn-large btn-margin-right smooth-scroll"> Video Overview</a>
+                        <a href="#showcase" class="btn btn-fill btn-large btn-margin-right">Early Access</a>
+                    </div>
+                </div>
             </div>
-            <div class="mdl-color-text--primary-contrast mdl-card__supporting-text meta comments">
-              <p>I'm a sports + tech fanatic. Previously, I studied Computer Science & Business at the University of British Columbia.
-              Currently, I'm working on Coastline Market. Check out our recent features on the Globe and Mail, Sauder News, Daily Hive or Canada Business.</p>
-            </div>
-          </div>
-          <div class="mdl-card something-else mdl-cell mdl-cell--8-col mdl-cell--4-col-desktop mdl-shadow--4dp">
-            <div class="mdl-card__media mdl-color--white mdl-color-text--grey-600">
-              <img src="images/logo.jpg">
-            </div>
-            <div class="mdl-card__supporting-text meta meta--fill mdl-color-text--grey-600">
-              <div>
-                <strong>External Links</strong>
-              </div>
-              <ul class="mdl-menu mdl-js-menu mdl-menu--bottom-right mdl-js-ripple-effect" for="menubtn">
-                <li onclick="location.href='http://linkedin.com/in/jhylee';" class="mdl-menu__item">LinkedIn</li>
-                <li onclick="location.href='http://instagram.com/jhylee95';" class="mdl-menu__item">Instagram</li>
-                <li onclick="location.href='http://coastlinemarket.com';" class="mdl-menu__item">Coastline</li>
-              </ul>
-              <button id="menubtn" class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon">
-                <i class="material-icons" role="presentation">more_vert</i>
-                <span class="visuallyhidden">show menu</span>
-              </button>
-            </div>
-          </div>
-
-          <div class="mdl-card coffee-pic mdl-cell mdl-cell--12-col mdl-shadow--4dp pointer">
-            <div class="mdl-card__media media-padding mdl-color-text--grey-50">
-              <h3 class="border-header mdl-shadow--4dp"><a href="project.html">Featured Projects</a></h3>
-            </div>
-            <div class="mdl-card__supporting-text meta mdl-color-text--grey-600">
-              <div class="minilogo"></div>
-              <div>
-                <strong>Joseph Lee</strong>
-                <span>Updated December 2016</span>
-              </div>
-            </div>
-          </div>
         </div>
-      </main>
-      <div class="mdl-layout__obfuscator"></div>
+    </section>
+
+    <!-- VIDEO MODAL -->
+    <div class="modal fade" id="videoModal" role="dialog">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="text-center">
+                                <iframe width="1280" height="720" src="https://www.youtube.com/embed/DCG3n7j_G3E" frameborder="0" allowfullscreen></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-    <a href="mailto:joseph@jhylee.com" target="_blank" id="view-source" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-color--red mdl-color-text--white">Contact</a>
-    <script src="https://code.getmdl.io/1.3.0/material.min.js"></script>
-  </body>
-  <script>
-    Array.prototype.forEach.call(document.querySelectorAll('.mdl-card__media'), function(el) {
-      var link = el.querySelector('a');
-      if(!link) {
-        return;
-      }
-      var target = link.getAttribute('href');
-      if(!target) {
-        return;
-      }
-      el.addEventListener('click', function() {
-        location.href = target;
-      });
-    });
-  </script>
+
+    <section class="partner-section section-padding" id="partners">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="col-md-12 text-center">
+                        <h4 class="partner-header-text">Some of Vancouver's <b>Top Restaurants</b> trust Coastline Market:</h4>
+                        <img class="partner-logo" src="../img/partners.png" alt="Coastline Partner Logos">
+                        <!--                  <img class="partner-logo" src="../img/labattoir.png" alt="L'Abattoir Logo">
+                 <img class="partner-logo" src="../img/espana.png" alt="Espana Restaurant Logo">
+                 <img class="partner-logo" src="../img/farmers.png" alt="Farmer's Apprentice Logo">
+                 <img class="partner-logo" src="../img/homer.png" alt="Homer Street Café Logo">
+                 <img class="partner-logo" src="../img/tableau.png" alt="Tableau Bar Bistro Logo"> -->
+                    </div>
+                </div>
+            </div>
+    </section>
+    <section class="features-extra section-padding" id="coastline">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5 col-md-offset-7">
+                    <!-- <h2 class="text-center">Coastline Market</h2> -->
+                    <div class="feature-list">
+                        <ul class="features-stack">
+                            <li class="feature-item">
+                                <div class="feature-content">
+                                    <h4><b>Skip Unnecessary Middlemen.</b></h4>
+                                    <p>Use Coastline to skip up to seven middlemen and source directly from the fishers that harvest your seafood.</p>
+                                </div>
+                            </li>
+                            <li class="feature-item">
+                                <div class="feature-content">
+                                    <h4><b>Traceable, Local Ingredients.</b></h4>
+                                    <p>Use Coastline to track when, where, how and who caught your seafood, including the path it took to get to your restaurant.</p>
+                                </div>
+                            </li>
+                            <li class="feature-item">
+                                <div class="feature-content">
+                                    <h4><b>Highest Quality Seafood.</b></h4>
+                                    <p>We never store or hold your seafood order, meaning you get fresh seafood that spends less time out of the water. Guaranteed.</p>
+                                </div>
+                            </li>
+                            <li class="feature-item">
+                                <div class="feature-content">
+                                    <img src="../img/appstore.png" alt="Coming Soon to the Apple App Store">
+                                    <img src="../img/googleplay.png" alt="Coming Soon to Google Play">
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="device-showcase">
+            <div class="devices">
+                <div class="ipad-wrap"></div>
+                <div class="iphone-wrap"></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="sign-up features-extra section-padding" id="benefits">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="col-md-4 intro-feature">
+                        <div class="intro-icon">
+                            <span data-icon="&#xe03f;" class="icon"></span>
+                        </div>
+                        <div class="intro-content">
+                            <h5>Unmatched Freshness</h5>
+                            <p>Coastline technology automates the role of middlemen in the supply chain, leading to
+                                <b>boat-to-plate freshness.</b></p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 intro-feature">
+                        <div class="intro-icon">
+                            <span data-icon="&#xe016;" class="icon"></span>
+                        </div>
+                        <div class="intro-content last">
+                            <h5>Fewer Middlemen = Lower Prices</h5>
+                            <p>Help local fishers earn a fair price for each fish, <b>without you having to pay more.</b></p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 intro-feature">
+                        <div class="intro-icon">
+                            <span data-icon="&#xe055;" class="icon"></span>
+                        </div>
+                        <div class="intro-content">
+                            <h5>Save Time and Effort</h5>
+                            <p>Find weekly species availability and prices through one click. <b>We'll take care of logistics and delivery.</b></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <br>
+                <div class="col-lg-12 text-center">
+                    <li><a href="why" id="showcase" class="btn btn-fill btn-large btn-margin-right smooth-scroll">Our Mission</a></li>
+                </div>
+            </div>
+    </section>
+
+
+
+    <section class="sign-up features-extra section-padding text-center" id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 google-map">
+                    <h2 class="text-center"><b>Contact Us</b></h2>
+                    <h5>111 East 8th Ave. Vancouver, B.C</h5>
+                    <div id="map-container"></div>
+                </div>
+
+                <div class="col-md-6">
+                    <h3><b>Interested in the freshest, most local seafood?</b></h3>
+                    <form class="signup-form" action="//formspree.io/joseph@coastlinemarket.com" method="POST" role="form" id="signup-form">
+                        <div class="form-input-group">
+                            <i class="fa fa-group"></i>
+                            <input type="text" class="" placeholder="Your name or company" name="name" required>
+                        </div>
+                        <div class="form-input-group">
+                            <i class="fa fa-envelope"></i>
+                            <input type="email" class="" placeholder="Enter your email" name="_replyto" required>
+                        </div>
+                        <div class="form-input-group">
+                            <i class="fa fa-phone"></i>
+                            <input type="number" min="0" step="1" class="" placeholder="Enter your phone" name="phone" required>
+                        </div>
+                        <div class="form-input-group">
+                            <textarea type="text" class="" placeholder="Tell us about you!" name="comment"></textarea>
+                        </div>
+
+                        <input type="hidden" name="_subject" value="New Signup on Coastline" />
+                        <!-- redirect to intermediate page -->
+                        <input type="hidden" name="_next" value="thankyou" />
+                        <input type="hidden" name="_subject" value="New Account Request on Coastline!" />
+                        <input type="hidden" name="_cc" value="robert@coastlinemarket.com" />
+                        <!-- to avoid spam/scrapers -->
+                        <input type="text" name="_gotcha" style="display:none" />
+                        <br>
+                        <button type="submit" class="btn-fill sign-up-btn" value="send">REQUEST ACCESS</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="to-top">
+        <div class="container">
+            <div class="row">
+                <div class="to-top-wrap">
+                    <a href="#top" class="top"><i class="fa fa-angle-up"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-7">
+                    <div class="footer-links">
+                        <ul class="footer-group">
+                            <li><a href="careers">Careers</a></li>
+                            <li><a href="investor">Investors</a></li>
+                            <li><a href="terms">Terms of Use</a></li>
+                            <li><a href="privacypolicy">Privacy Policy</a></li>
+                            <li><a href="https://s3.amazonaws.com/coastline-us/mediakit.pdf">Media Kit</a></li>
+                        </ul>
+                        <p><b>Copyright © 2017 Coastline Market Inc. | Made with
+              <span class="fa fa-heart"></span> in Vancouver & Toronto</b></p>
+                    </div>
+                </div>
+                <div class="social-share">
+                    <p>Connect with Coastline</p>
+                    <a href="https://twitter.com/coastlinemarket" class="twitter-share"><i class="fa fa-twitter"></i></a>
+                    <a href="https://facebook.com/coastlinemarket" class="facebook-share"><i class="fa fa-facebook"></i></a>
+                    <a href="https://linkedin.com/company/coastline-market" class="linkedin-share"><i class="fa fa-linkedin"></i></a>
+                    <a href="https://www.youtube.com/channel/UCgScTHtZoKfIpdqqXTzjyVw" class="youtube-share"><i class="fa fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script>
+        window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')
+    </script>
+    <script src="bower_components/retina.js/dist/retina.js"></script>
+    <script src="js/jquery.fancybox.pack.js"></script>
+    <script src="js/vendor/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <script src="js/jquery.flexslider-min.js"></script>
+    <script src="bower_components/classie/classie.js"></script>
+    <script src="bower_components/jquery-waypoints/lib/jquery.waypoints.min.js"></script>
+    <script src="js/min/typed.min.js"></script>
+    <script>
+        $(function() {
+            $(".element").typed({
+                strings: ["Freshness ", "Local Selling ", "Traceability "],
+                typeSpeed: 10,
+                startDelay: 2,
+                loop: true,
+                backDelay: 5000
+            });
+        });
+    </script>
+
+    <script>
+        function init_map() {
+            var var_location = new google.maps.LatLng(49.266810, -123.102162);
+            var var_mapoptions = {
+                center: var_location,
+                zoom: 13,
+                disableDoubleClickZoom: true,
+                scrollwheel: false,
+            };
+            var var_marker = new google.maps.Marker({
+                position: var_location,
+                map: var_map,
+                title: "Coastline Headquarters"
+            });
+            var var_map = new google.maps.Map(document.getElementById("map-container"),
+                var_mapoptions);
+            var_marker.setMap(var_map);
+        }
+        google.maps.event.addDomListener(window, 'load', init_map);
+    </script>
+
+    <script type="text/javascript">
+        bioEp.init({
+            html: '<div class="popup-form">' +
+                '<h1 class="popup-header">QUICK: You Earned an Exclusive Discount!</h1>' + '<hr>' +
+                '<span class="popup-message">Sign up for our newsletter and get access to free recipes, software, resources and <b>10% off your seafood order</b>.</span>' +
+                '<form action="//formspree.io/hello@coastlinemarket.com" method="POST" role="form"><input class="popup-input" type="text" placeholder="Enter your email here!" name="_replyto" required><input type="hidden" name="_subject" value="New Discount Request on Coastline!" /><input type="hidden" name="_cc" value="robert@coastlinemarket.com" />' +
+                '<br>' +
+                '<button type="submit" class="btn-fill sign-up-btn" value="send">Grab the Discount</button><input type="hidden" name="_next" value="thankyou" /></form>' + '<br>' +
+                '<a class ="popup-action"  onClick="bioEp.hidePopup();" href = "javascript:void(0)">No thanks, I prefer to pay full price</a>' +
+                '</div>',
+            css: '.popup-form {padding:20px; color: #333; border-radius: 2px; background-color: #FFFFFF; text-align: center;} .popup-header {font-size:24px;}, .popup-message {padding: 5px;} .popup-input {width:400px; margin: 20px; padding: 10px; border-radius: 2px; border: 0.13em #1E2C40 solid; outline: none;} .sign-up-btn {letter-spacing: 1px; padding: 7px 10px 7px 10px;} a.popup-action {color: #1E2C40} a.popup-action:hover {color:000}',
+            cookieExp: 0
+        });
+    </script>
+
+    <!--Start of Tawk.to Script-->
+    <script type="text/javascript">
+        var Tawk_API = Tawk_API || {},
+            Tawk_LoadStart = new Date();
+        (function() {
+            var s1 = document.createElement("script"),
+                s0 = document.getElementsByTagName("script")[0];
+            s1.async = true;
+            s1.src = 'https://embed.tawk.to/580a7d23d0f23f0cd8db8c03/default';
+            s1.charset = 'UTF-8';
+            s1.setAttribute('crossorigin', '*');
+            s0.parentNode.insertBefore(s1, s0);
+        })();
+    </script>
+    <!--End of Tawk.to Script-->
+
+    <!-- Hotjar Tracking Code for www.coastlinemarket.com -->
+    <script>
+        (function(h, o, t, j, a, r) {
+            h.hj = h.hj || function() {
+                (h.hj.q = h.hj.q || []).push(arguments)
+            };
+            h._hjSettings = {
+                hjid: 343533,
+                hjsv: 5
+            };
+            a = o.getElementsByTagName('head')[0];
+            r = o.createElement('script');
+            r.async = 1;
+            r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
+            a.appendChild(r);
+        })(window, document, '//static.hotjar.com/c/hotjar-', '.js?sv=');
+    </script>
+
+    <script>
+        (function(b, o, i, l, e, r) {
+            b.GoogleAnalyticsObject = l;
+            b[l] || (b[l] =
+                function() {
+                    (b[l].q = b[l].q || []).push(arguments)
+                });
+            b[l].l = +new Date;
+            e = o.createElement(i);
+            r = o.getElementsByTagName(i)[0];
+            e.src = '//www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e, r)
+        }(window, document, 'script', 'ga'));
+        ga('create', 'UA-65615820-1', 'auto');
+        ga('send', 'pageview');
+    </script>
+</body>
+
 </html>
