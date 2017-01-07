@@ -35,11 +35,10 @@ body::before {
   padding-bottom: 10px;
   background-color: #263238;
 }
-@media (max-width: 512px) {
-  .navbar {
-    display: none;
-  }
+.mdl-card__media {
+    background-color: #263238;
 }
+
 @media (max-width: 512px)  and (-webkit-min-device-pixel-ratio: 1.5),
        (max-width: 512px)  and (min-resolution: 1.5dppx),
        (max-width: 1024px) and (-webkit-max-device-pixel-ratio: 1.5),
@@ -314,6 +313,10 @@ body .demo-blog {
 }
 .mdl-cell--5-col .mdl-card__media {
   background-image: url('images/identifai.png');
+  height: 280px;
+}
+.mdl-cell--4-col .mdl-card__media {
+  background-image: url('images/headerimg.png');
   height: 280px;
 }
 .mdl-cell--12-col .mdl-card__media {
