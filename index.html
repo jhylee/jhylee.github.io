@@ -1,86 +1,77 @@
-<!DOCTYPE html>
-<html lang="en" class="no-js">
+<!doctype html>
+<html>
+  <head>
+      <meta charset="utf-8">
+      <meta name="description" content="">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="description" content="Joseph is a startup founder specialized in product, engineering, design, and marketing. If you're looking to take your idea, design, or business to the next level, give me a shout!">
+      <title>Joseph Lee - Tech Consulting for startups.</title>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,600,700,800,900" rel="stylesheet">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/railscasts.min.css">
+      <link rel="stylesheet" href="jhylee-global.css">
+      <link rel="stylesheet" href="jhylee-landing.css">
+      <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+      <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+      <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+      <link rel="manifest" href="/site.webmanifest">
+      <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+      <meta name="msapplication-TileColor" content="#da532c">
+      <meta name="theme-color" content="#ffffff">
+  </head>
+  <body>
+    <nav>
+      <a href='index.html' class="logo"></a>
+      <ul class="menu">
+        <div class="menu__item toggle"><span></span></div>
+        <li class="menu__item"><a href="mailto:joseph@jhylee.com" class="link link--dark">Say <b>hello</b>.</a></li>
+      </ul>
+    </nav>
+    <div class="hero">
+      <h1 class="hero__title">Design, web development & strategy for startups and businesses.</h1>
+    </div>
+    <div class="divider"> </div>
+    <div class="hero__terminal">
+      <pre>
+        <code class="shell-session demo">jhylee ~ $ </code>
+      </pre>
+    </div>
+    <div class="wrapper">
+      <div class="installation">
+        <h3 class="section__title">Recent Features</h3>
+        <div class="tab__container">
+          <ul class="tab__menu">
+            <li class="tab active" data-tab="mac">news & media</li>
+            <li class="tab" data-tab="linux">links</li>
+          </ul>
+          <pre class="nohighlight code">
+            <code class="tab__pane active mac">
+              $  <a href="https://www.linkedin.com/feed/update/urn:li:activity:6547507530124283905/">Forbes Magazine June 30th, 2019 [Print]</a><br/><br/>
+              $  <a href="https://creative.gimletmedia.com/show/earning-curve/episodes/ryan-holmes-joe-lee/">Gimlet Media: Earning Curve Season 1, Episode 1 with Ryan Holmes and Joseph Lee</a><br/><br/>
+              $  <a href="https://canadabusiness.ca/blog/the-meaning-of-innovation/">Government of Canada: Meaning of Innovation</a><br/><br/>
+              $  <a href="https://www.forbes.com/profile/coastline-market/#7d333ac51436">Forbes 30 Under 30, Retail and e-Commerce</a><br/><br/>
+              $  <a href="https://biv.com/article/2017/11/50-bc-innovations-watch">Business in Vancouver: 50 BC Innovations to Watch</a> <br/><br/>
+              $  <a href="https://www.sauder.ubc.ca/News/2016/Challenge_to_Change__BCom_grad_joins_Canadas_most_talented_young_entrepreneurs_at_The_Next_36">UBC Sauder: Challenge to Change</a><br/><br/>
+              $  <a href="https://business.financialpost.com/entrepreneur/from-catch-to-kitchen-entrepreneurs-reel-in-data-on-seafood-supply-chain">Financial Post: From catch to kitchen: Entrepreneurs reel in data on seafood supply ...</a><br/><br/>
+              $  <a href="https://www.theglobeandmail.com/report-on-business/small-business/startups/how-a-vancouver-startup-helps-fisherman-deliver-from-dock-to-plate/article33006697/">The Globe and Mail</a> <br/><br/>
+              $  <a href="https://www.geekwire.com/2017/coastline-market/"> Geekwire: Startup Spotlight: Coastline's digital marketplace connects fishermen ...</a> <br/><br/>  
+              $  <a href="https://thisispopulist.com/20-startups-to-watch-closely-in-2017/">Populist: 20 Vancouver STARTUPS To Watch Closely In 2017</a><br/><br/>
+            </code>
+            <code class="tab__pane linux">
+              $  <a href='https://linkedin.com/in/jhylee/'>Linkedin</a><br/><br/>
+              $  <a href='https://medium.com/@jhylee'>Medium</a>
+            </code>
+          </pre>
+        </div>
+      </div>
+      <div class="callout">
+        <p>I'm always looking to connect with other entrepreneurs, collaborage with startups/small businesses, and help where I can.</p>
+        <a href="mailto:joseph@jhylee.com" class="button--primary">Get in touch.</a>
+      </div>
+    </div>
 
-<head>
-	<meta charset="UTF-8" />
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Joseph Lee | Entrepreneur</title>
-	<meta name="description" content="Wobbly slideshow effect using Snap.svg" />
-	<meta name="keywords" content="slideshow, wobbly, jelly, effect, svg, snap.svg, web design" />
-	<meta name="author" content="Codrops" />
-	<link rel="shortcut icon" href="../favicon.ico">
-	<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="css/normalize.css" />
-	<link rel="stylesheet" type="text/css" href="css/demo.css" />
-	<link rel="stylesheet" type="text/css" href="css/slideshow.css" />
-	<script src="js/snap.svg-min.js"></script>
-	<script src="js/modernizr.custom.js"></script>
-	<!--[if IE]>
-  		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-		<![endif]-->
-</head>
-
-<body>
-	<div class="container">
-		<div id="slideshow" class="slideshow">
-			<ul>
-				<li>
-					<div class="slide">
-						<img class="icon" src="img/icons/joe.png" alt="Joe Headshot" />
-						<h1>Hi. My name is Joe.</h1>
-						<div class="color-row">
-							<h2>Designer, Developer, Marketer, Founder. Call me what you will, but what I love most is being an operator and executor. The pursuit of innovation and drive for tangible results are the motivations that ignite my entrepreneurial drive.</h2>
-						</div>
-						<p>Click the arrows to learn more.</p>
-					</div>
-				</li>
-				<li>
-					<div class="slide">
-						<img class="icon" src="img/icons/coastline.svg" alt="Coastline Graphic" />
-						<blockquote>
-							<p>I'm currently building Coastline - a #boat2plate seafood marketplace.</p>
-						</blockquote>
-						<p><a class="slide-link" href="https://www.coastlinemarket.com">www.coastlinemarket.com</a></p>
-					</div>
-				</li>
-				<li>
-					<div class="slide">
-						<br><br>
-						<h1 class="inverse">
-							Our work has been featured in some pretty cool places. Check out some of them below:
-						</h1>
-						<div class="media-section text-center" id="media-logos">
-							<a href="http://www.theglobeandmail.com/report-on-business/small-business/startups/how-a-vancouver-startup-helps-fisherman-deliver-from-dock-to-plate/article33006697/"><img class="media-logo" src="img/icons/theglobe.png" alt="The Globe and Mail Feature"></a>
-							<a href="http://www.geekwire.com/2017/coastline-market/"><img class="media-logo" src="img/icons/geekwire.png" alt="Geekwire Feature"></a>
-							<a href="http://www.globalnews.ca/video/3363045/fishing-app-revolutionizes-dock-to-dish-industry"><img class="media-logo narrow-logo" src="img/icons/global.png" alt="Global TV Feature"></a>
-							<a href="http://www.intrafish.com/marketplace/1196446/new-vancouver-app-connects-fishermen-restaurants"><img class="media-logo" src="img/icons/intrafish.png" alt="Intrafish Feature"></a>
-							<a href="http://www.geekwire.com/2017/9-startups-techstars-seattles-newest-class/"><img class="media-logo" src="img/icons/techstars.png" alt="Techstars Feature"></a>
-							<a href="http://www.sauder.ubc.ca/News/2016/Challenge_to_Change__BCom_grad_joins_Canadas_most_talented_young_entrepreneurs_at_The_Next_36?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_treasury%3BO9cG8deWQPKoKWhoHAL1VQ%3D%3D"><img class="media-logo" src="img/icons/sauder.png" alt="Sauder Feature"></a>
-							<a href="https://canadabusiness.ca/blog/the-meaning-of-innovation/"><img class="media-logo" src="img/icons/canada.png" alt="Canada Feature"></a>
-						</div>
-					</div>
-				</li>
-				<li>
-					<div class="slide">
-						<img class="icon" src="img/icons/letter.svg" alt="Letter Icon" />
-						<h1>I also blog sometimes. Check out my musings below:</h1>
-						<button onClick="window.location.href='https://medium.com/@jhylee'">Go To Medium</button>
-					</div>
-				</li>
-			</ul>
-		</div>
-	</div>
-	<!-- /container -->
-	<script src="js/classie.js"></script>
-	<script src="js/sliderFx.js"></script>
-	<script>
-		(function() {
-			new SliderFx(document.getElementById('slideshow'), {
-				easing: 'cubic-bezier(.8,0,.2,1)'
-			});
-		})();
-	</script>
-</body>
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+    <script src="jhylee.js"></script>
+  </body>
 </html>

@@ -1,1 +1,1 @@
-Materialized. Old website at archive/index.html
+# Thanks for visiting!
