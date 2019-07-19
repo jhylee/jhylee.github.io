@@ -17,8 +17,6 @@ if (document.getElementsByClassName('demo').length > 0) {
 
             If you're looking to take your idea, design, or business to the next level, give me a shout!
 
-            ###I'm a proud Techstars graduate, Forbes 30 Under 30, Next 36 Fellow, The Next Big Thing Fellow, and UBC Computer Science and Business Alum.
-
             Outside of work, I'm a fan of:
             - playing and watching sports
             - listening to podcasts and reading
